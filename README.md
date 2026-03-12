@@ -22,10 +22,10 @@ World Vibe Web is a distributed app store. Anyone with an [Appétit](https://git
 ## How It Works
 
 ```
-repos.json          →  build.sh         →  apps.json      →  static site
-(list of GitHub        (fetches each        (merged from       (same Appétit UI
- repos with             repo's               all sources)       reading local
- apps.json)             apps.json)                              apps.json)
+stores.json         →  build.sh         →  apps.json      →  static site
+(repo paths or         (fetches each        (merged from       (same Appétit UI
+ direct URLs to         store's              all sources)       reading local
+ apps.json files)       apps.json)                              apps.json)
 ```
 
 1. `repos.json` lists GitHub repos (e.g. `"f/appetit"`)
@@ -36,12 +36,13 @@ repos.json          →  build.sh         →  apps.json      →  static site
 ## Add Your Store
 
 1. Create an `apps.json` in your repo following the [Appétit format](https://github.com/f/appetit)
-2. Open a PR adding your repo to `repos.json`:
+2. Open a PR adding your store to `stores.json` — either a GitHub repo path or a direct URL:
 
 ```json
 [
   "f/appetit",
-  "yourname/your-repo"
+  "yourname/your-repo",
+  "https://example.com/apps.json"
 ]
 ```
 

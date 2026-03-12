@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPOS_FILE="repos.json"
+STORES_FILE="stores.json"
 CATEGORIES_FILE="categories.json"
 FEATURED_FILE="featured.json"
 OUTPUT="apps.json"
@@ -12,23 +12,26 @@ if ! command -v jq &>/dev/null; then
   exit 1
 fi
 
-AUTH_HEADER=""
-if [ -n "${GITHUB_TOKEN:-}" ]; then
-  AUTH_HEADER="-H \"Authorization: token $GITHUB_TOKEN\""
-fi
-
-repos=$(jq -r '.[]' "$REPOS_FILE")
+stores=$(jq -r '.[]' "$STORES_FILE")
 allowed_cats=$(jq -r '.[].id' "$CATEGORIES_FILE")
 categories=$(cat "$CATEGORIES_FILE")
 featured=$(cat "$FEATURED_FILE")
 all_apps="[]"
 
-for repo in $repos; do
-  echo -n "Fetching $repo... "
-  owner=$(echo "$repo" | cut -d/ -f1)
+for entry in $stores; do
+  echo -n "Fetching $entry... "
 
-  raw_url="https://raw.githubusercontent.com/${repo}/HEAD/apps.json"
-  tmp_file="$TMP_DIR/$(echo "$repo" | tr '/' '_').json"
+  if [[ "$entry" =~ ^https?:// ]]; then
+    raw_url="$entry"
+    owner=$(echo "$entry" | sed -E 's|.*/([^/]+)/[^/]+$|\1|' || echo "unknown")
+    source_id="$entry"
+  else
+    raw_url="https://raw.githubusercontent.com/${entry}/HEAD/apps.json"
+    owner=$(echo "$entry" | cut -d/ -f1)
+    source_id="$entry"
+  fi
+
+  tmp_file="$TMP_DIR/$(echo "$entry" | tr '/:.' '_').json"
 
   if ! curl -sf "$raw_url" ${GITHUB_TOKEN:+-H "Authorization: token $GITHUB_TOKEN"} -o "$tmp_file"; then
     echo "FAILED"
@@ -41,9 +44,9 @@ for repo in $repos; do
   developer=$(jq -r '.store.developer // "Unknown"' "$tmp_file")
   echo "OK ($app_count apps from $store_name by $developer)"
 
-  apps_with_source=$(jq --arg repo "$repo" --arg owner "$owner" --arg dev "$developer" --arg store "$store_name" --arg storeUrl "$store_url" --argjson allowed "$(echo "$allowed_cats" | jq -R . | jq -s .)" '
+  apps_with_source=$(jq --arg source "$source_id" --arg owner "$owner" --arg dev "$developer" --arg store "$store_name" --arg storeUrl "$store_url" --argjson allowed "$(echo "$allowed_cats" | jq -R . | jq -s .)" '
     .apps | map(
-      . + { _source: $repo, _owner: $owner, _developer: $dev, _store: $store, _storeUrl: $storeUrl } |
+      . + { _source: $source, _owner: $owner, _developer: $dev, _store: $store, _storeUrl: $storeUrl } |
       if .developer == null then .developer = $dev else . end |
       .category = [.category[] | select(. as $c | $allowed | index($c))]
     ) | map(select(.category | length > 0))
