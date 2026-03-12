@@ -164,7 +164,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 310,
+      "stars": 311,
       "forks": 33,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -205,7 +205,7 @@
       "github": "https://github.com/f/appetit",
       "homepage": "https://apps.fka.dev",
       "language": "JavaScript",
-      "stars": 15,
+      "stars": 16,
       "forks": 3,
       "requirements": "Any modern browser",
       "features": [
@@ -346,6 +346,7 @@
       "screenshots": [
         "https://github.com/user-attachments/assets/f281b654-a0a2-4883-b09c-21aa2cd3efb4"
       ],
+      "brew": "brew install --cask bluewave-labs/tap/dodoclip",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -374,8 +375,8 @@
       "github": "https://github.com/DodoApps/dodocount",
       "homepage": null,
       "language": "Swift",
-      "stars": 11,
-      "forks": 2,
+      "stars": 0,
+      "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodocount/releases/download/v1.1.0/DodoCount-1.1.0.dmg",
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -385,6 +386,7 @@
         "Multiple property support"
       ],
       "screenshots": [],
+      "brew": "brew install --cask DodoApps/tap/dodocount",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -413,7 +415,7 @@
       "github": "https://github.com/DodoApps/dodonest",
       "homepage": null,
       "language": "Swift",
-      "stars": 7,
+      "stars": 2,
       "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodonest/releases/download/v1.1.0/DodoNest-1.1.0.dmg",
       "requirements": "macOS 14.0 or later",
@@ -426,6 +428,7 @@
       "screenshots": [
         "https://raw.githubusercontent.com/DodoApps/dodonest/main/assets/screenshot.png"
       ],
+      "brew": "brew install --cask dodoapps/tap/dodonest",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -454,7 +457,7 @@
       "github": "https://github.com/DodoApps/dodopass",
       "homepage": null,
       "language": "Swift",
-      "stars": 3,
+      "stars": 0,
       "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodopass/releases/download/v1.0.0/DodoPass-1.0.0.dmg",
       "requirements": "macOS 14.0 or later",
@@ -465,6 +468,7 @@
         "Auto-lock on inactivity"
       ],
       "screenshots": [],
+      "brew": "brew install --cask dodoapps/tap/dodopass",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -493,8 +497,8 @@
       "github": "https://github.com/DodoApps/dodopulse",
       "homepage": null,
       "language": "Swift",
-      "stars": 126,
-      "forks": 13,
+      "stars": 101,
+      "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodopulse/releases/download/v1.1.0/DodoPulse-1.1.0.dmg",
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -506,6 +510,7 @@
       "screenshots": [
         "https://github.com/user-attachments/assets/6868a0ac-1d01-45aa-84d7-8d21dc0daa6b"
       ],
+      "brew": "brew install --cask dodoapps/tap/dodopulse",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -534,8 +539,8 @@
       "github": "https://github.com/DodoApps/dodoshot",
       "homepage": null,
       "language": "Swift",
-      "stars": 28,
-      "forks": 3,
+      "stars": 13,
+      "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodoshot/releases/download/v1.2.9/DodoShot-1.2.9.dmg",
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -547,6 +552,7 @@
       "screenshots": [
         "https://github.com/user-attachments/assets/a24b9914-0aab-4a03-993a-144069790290"
       ],
+      "brew": "brew install --cask DodoApps/tap/dodoshot",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -575,8 +581,8 @@
       "github": "https://github.com/DodoApps/dodotidy",
       "homepage": null,
       "language": "Swift",
-      "stars": 170,
-      "forks": 6,
+      "stars": 71,
+      "forks": 0,
       "downloadUrl": "https://github.com/DodoApps/dodotidy/releases/download/v1.0.5/DodoTidy-1.0.5.dmg",
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -586,6 +592,7 @@
         "Safe trash-based deletion"
       ],
       "screenshots": [],
+      "brew": "brew install --cask dodoapps/tap/dodotidy",
       "_source": "https://raw.githubusercontent.com/f/catalog/main/wvw.apps.json",
       "_owner": "main",
       "_developer": "DodoApps",
@@ -612,7 +619,7 @@
       "github": "https://github.com/asafakin/oyun",
       "homepage": "https://asafakin.github.io/oyun/savas-oyunu/",
       "language": "JavaScript",
-      "stars": 3,
+      "stars": 0,
       "forks": 0,
       "requirements": "Any modern browser",
       "features": [
@@ -692,8 +699,8 @@
       "github": "https://github.com/f/istanbul",
       "homepage": null,
       "language": "Swift",
-      "stars": 10,
-      "forks": 2,
+      "stars": 8,
+      "forks": 1,
       "brew": "brew install f/tap/istanbul",
       "downloadUrl": "https://github.com/f/istanbul/releases/latest",
       "requirements": "macOS 14 Sonoma or later",
@@ -735,7 +742,7 @@
       "github": "https://github.com/f/mcptools",
       "homepage": null,
       "language": "Go",
-      "stars": 1516,
+      "stars": 1515,
       "forks": 116,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
@@ -781,8 +788,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 151630,
-      "forks": 19920,
+      "stars": 151562,
+      "forks": 19906,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -867,7 +874,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 1976,
+      "stars": 1972,
       "forks": 135,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
