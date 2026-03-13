@@ -2,11 +2,10 @@
 on:
   schedule: daily
 permissions:
-  contents: write
+  contents: read
 safe-outputs:
-  commit-and-push:
-    paths: [featured.json]
-    commit-message-prefix: "chore: "
+  create-pull-request:
+    title-prefix: "[featured] "
 ---
 
 ## Curate Daily Featured Apps
@@ -45,7 +44,7 @@ The current `featured.json` looks like this:
    - `title`: A catchy, punchy one-liner (5-10 words). Don't just repeat the app name. Be creative — think Apple App Store editorial voice. Examples: "Your script, always in sight.", "Screenshots, reimagined.", "The world's largest prompt collection."
    - `subtitle`: 1-2 sentences describing what makes this app special. Write it like a magazine blurb, not a README description.
 5. Write the updated `featured.json` array (4 entries)
-6. Commit and push directly to master with message like "chore: update featured apps for March 14, 2026"
+6. Create a pull request with the updated `featured.json`. It will auto-merge.
 
 ### Important rules
 
