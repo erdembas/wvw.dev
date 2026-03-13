@@ -200,7 +200,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 316,
+      "stars": 318,
       "forks": 33,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -241,7 +241,7 @@
       "github": "https://github.com/f/appetit",
       "homepage": "https://apps.fka.dev",
       "language": "JavaScript",
-      "stars": 22,
+      "stars": 23,
       "forks": 3,
       "requirements": "Any modern browser",
       "features": [
@@ -571,7 +571,7 @@
       "github": "https://github.com/DodoApps/dodoservice",
       "homepage": null,
       "language": "Swift",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -1081,8 +1081,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 151885,
-      "forks": 19955,
+      "stars": 151906,
+      "forks": 19961,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -1146,7 +1146,7 @@
         "https://raw.githubusercontent.com/radioheavy/avalon/main/public/a/new-6-reverse-result.png",
         "https://raw.githubusercontent.com/radioheavy/avalon/main/public/a/new-7-dashboard-prompts.png"
       ],
-      "_source": "radioheavy/avalon",
+      "_source": "radioheavy/radioheavy-apps",
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
@@ -1188,7 +1188,7 @@
         "Menu bar controls and persistent overlay settings",
         "No account required for the core caption workflow"
       ],
-      "_source": "radioheavy/captioneer",
+      "_source": "radioheavy/radioheavy-apps",
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
@@ -1228,7 +1228,7 @@
         "macOS Keychain integration with fallback local secret storage"
       ],
       "screenshots": [],
-      "_source": "radioheavy/wiro_cl-",
+      "_source": "radioheavy/radioheavy-apps",
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
@@ -1266,7 +1266,7 @@
         "SPA route watching and MutationObserver-based re-application"
       ],
       "screenshots": [],
-      "_source": "radioheavy/wiro-extension",
+      "_source": "radioheavy/radioheavy-apps",
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
