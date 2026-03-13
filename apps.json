@@ -295,6 +295,42 @@
       "forks": 0
     },
     {
+      "id": "booking-calendar",
+      "name": "Booking Calendar",
+      "subtitle": "Self-hosted appointment scheduling with PWA support.",
+      "description": "A single-admin booking platform with shareable links, notifications, and self-hosted data ownership.",
+      "longDescription": "Booking Calendar is a self-hosted PWA for managing appointments without handing scheduling data to a third party. It includes admin scheduling controls, public booking pages, cancellation flows, notifications, webhooks, and SQLite-backed persistence aimed at practical small-scale booking workflows.",
+      "icon": null,
+      "iconEmoji": "📅",
+      "category": [
+        "web",
+        "productivity"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "developer": "sametcn99",
+      "github": "https://github.com/sametcn99/booking-calendar",
+      "homepage": "https://booking-calendar-docs.vercel.app",
+      "language": "TypeScript",
+      "stars": 7,
+      "forks": 1,
+      "requirements": "Modern browser or self-hosted deployment",
+      "features": [
+        "Admin dashboard for slots, appointments, and booking links",
+        "Conflict-safe booking flow with overlap prevention",
+        "Email, web push, and webhook notification support",
+        "Installable PWA backed by self-hosted SQLite storage"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/booking-calendar"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
       "id": "check-ai",
       "name": "check-ai",
       "subtitle": "AI-Readiness Audit for Repos",
@@ -335,6 +371,45 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "clockss",
+      "name": "ClockSS",
+      "subtitle": "Minimal analog clock screen saver for macOS",
+      "description": "A customizable analog clock screen saver with color and font options. Built with Swift and AppKit.",
+      "longDescription": "ClockSS is a lightweight, customizable analog clock screen saver for macOS. Choose any system font for clock numerals, customize background and clock colors, and enjoy a smooth analog clock with hour, minute, and second hands. Supports English and Turkish localization. Universal binary for Apple Silicon and Intel.",
+      "icon": null,
+      "iconEmoji": "⏰",
+      "category": [
+        "macos",
+        "utilities"
+      ],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/lbali/clockss",
+      "language": "Swift",
+      "downloadUrl": "https://github.com/lbali/clockss/releases/latest",
+      "requirements": "macOS 13+",
+      "features": [
+        "Smooth analog clock with hour, minute, and second hands",
+        "Customizable background and clock colors",
+        "All system fonts available for clock numerals",
+        "English and Turkish localization",
+        "Universal binary (Apple Silicon + Intel)",
+        "Lightweight, no dependencies"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/lbali/clockss/main/screenshots/screenshot.png",
+        "https://raw.githubusercontent.com/lbali/clockss/main/screenshots/settings.png"
+      ],
+      "_source": "lbali/clockss",
+      "_owner": "lbali",
+      "_developer": "Levent Bali",
+      "_store": "Levent Bali",
+      "_storeUrl": "",
+      "developer": "Levent Bali",
+      "stars": 0,
+      "forks": 0
     },
     {
       "id": "damga",
@@ -409,6 +484,47 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "dev-cleaner",
+      "name": "Dev Cleaner",
+      "subtitle": "Workspace health dashboard",
+      "description": "Scan, visualize, and safely clean heavyweight artifacts across developer workspaces.",
+      "longDescription": "Scan, visualize, and safely clean heavyweight artifacts across your developer workspaces with system telemetry and a configurable menu bar widget.",
+      "icon": "https://raw.githubusercontent.com/Tolsion/DevCleaner/main/assets/dev_clean_color.png",
+      "iconEmoji": "🧹",
+      "iconStyle": {
+        "scale": 1.1,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
+      "category": [
+        "macos",
+        "utilities",
+        "developer-tools",
+        "productivity"
+      ],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/Tolsion/DevCleaner",
+      "homepage": null,
+      "language": "TypeScript",
+      "downloadUrl": "https://github.com/Tolsion/DevCleaner/releases/latest",
+      "requirements": "macOS",
+      "features": [
+        "Multi-root workspace scanning",
+        "Cleanup previews with safe delete",
+        "System telemetry and menu bar widget",
+        "Mac maintenance tools (junk, large files, memory relief)"
+      ],
+      "_source": "Tolsion/DevCleaner",
+      "_owner": "Tolsion",
+      "_developer": "Tolsion",
+      "_store": "Dev Cleaner",
+      "_storeUrl": "",
+      "developer": "Tolsion",
+      "stars": 2,
+      "forks": 0
     },
     {
       "id": "dodoclip",
@@ -731,6 +847,44 @@
       "_storeUrl": ""
     },
     {
+      "id": "env-protector",
+      "name": "Env Protector",
+      "subtitle": "Keep .env secrets hidden before they reach the editor.",
+      "description": "A VS Code extension that intercepts environment files and lets you view or manage them safely.",
+      "longDescription": "Env Protector is a VS Code extension built around a security-first workflow for `.env` files. Instead of masking secrets after a file opens, it intercepts access before rendering, offers a masked view, and lets you add, edit, or remove variables without exposing raw values during screen sharing or recordings.",
+      "icon": null,
+      "iconEmoji": "🔐",
+      "category": [
+        "developer-tools",
+        "productivity"
+      ],
+      "platform": "VS Code",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/env-protector",
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=sametcn99.env-protector",
+      "language": "TypeScript",
+      "stars": 15,
+      "forks": 3,
+      "developer": "sametcn99",
+      "installCommand": "code --install-extension sametcn99.env-protector",
+      "requirements": "Visual Studio Code",
+      "features": [
+        "Intercept .env file opening before secrets render on screen",
+        "Masked virtual view for reviewing keys without exposing values",
+        "Add, edit, and remove variables without opening the raw file",
+        "Workspace-level hiding of sensitive env files in the explorer"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/sametcn99/env-protector/refs/heads/main/assets/banner.png",
+        "https://raw.githubusercontent.com/sametcn99/env-protector/refs/heads/main/assets/masked.png"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
       "id": "flappy-bird",
       "name": "Flappy Bird",
       "subtitle": "Flappy Bird clone.",
@@ -866,6 +1020,121 @@
       "developer": "Fatih Kadir Akin"
     },
     {
+      "id": "gpvblazor",
+      "name": "GPVBlazor",
+      "subtitle": "Explore GitHub profiles, repos, gists, and star history.",
+      "description": "A Blazor-based GitHub profile explorer with analytics, charts, and repository insights.",
+      "longDescription": "GPVBlazor is a responsive GitHub profile viewer built with Blazor Server. It combines user search, repository browsing, gist viewing, README previews, star history charts, and profile statistics into a single interface for exploring open-source activity in more depth than the default GitHub profile pages.",
+      "icon": null,
+      "iconEmoji": "📈",
+      "category": [
+        "web",
+        "developer-tools"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/GPVBlazor",
+      "homepage": "https://gpv.sametcc.me",
+      "language": "C#",
+      "stars": 2,
+      "forks": 0,
+      "developer": "sametcn99",
+      "requirements": "Modern browser",
+      "features": [
+        "Search GitHub users with profile, repo, and gist exploration",
+        "Interactive star history and profile statistics visualizations",
+        "README preview and repository filtering in one interface",
+        "Authentication options to extend GitHub API rate limits"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/GPVBlazor"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
+      "id": "ha-bluetooth-audio-manager",
+      "name": "Bluetooth Audio Manager",
+      "subtitle": "A2DP Bluetooth audio for Home Assistant",
+      "description": "Home Assistant add-on for managing Bluetooth audio device connections (A2DP) with persistent pairing, auto-reconnect, and AppArmor security.",
+      "longDescription": "Bluetooth Audio Manager is a Home Assistant add-on that turns your HA instance into a Bluetooth audio hub. It supports A2DP streaming with persistent device pairing, automatic reconnection, RSSI-based device monitoring, and full AppArmor security. Manage everything through an integrated ingress UI with real-time WebSocket updates. Includes optional per-device MPD instances for TTS and media playback automations.",
+      "icon": "https://raw.githubusercontent.com/scyto/ha-bluetooth-audio-manager/main/bluetooth_audio_manager/icon.png",
+      "category": [
+        "utilities",
+        "music"
+      ],
+      "platform": "Docker",
+      "price": "Free",
+      "github": "https://github.com/scyto/ha-bluetooth-audio-manager",
+      "language": "Python",
+      "requirements": "Home Assistant OS or Supervised installation with Bluetooth adapter",
+      "features": [
+        "One-click scan, pair, connect, and disconnect from the web UI",
+        "Auto-reconnect with configurable exponential backoff",
+        "Per-device idle modes: Power Save, Stay Awake, or Auto-Disconnect",
+        "Per-device MPD instances exposed as media_player entities for TTS",
+        "AVRCP media buttons for hardware volume and playback control",
+        "Multi-adapter support with friendly USB device names",
+        "Real-time Events view and filterable Logs viewer",
+        "Dark mode with automatic system theme detection",
+        "Custom AppArmor profile enforcing least-privilege access"
+      ],
+      "screenshots": [
+        "https://github.com/user-attachments/assets/a1dd24b9-9f99-4049-80fc-918e3a5f8909",
+        "https://github.com/user-attachments/assets/da5e60d5-69ef-41e2-8d8b-27af8fdac120",
+        "https://github.com/user-attachments/assets/64a12aae-c423-49a1-9e2e-48ff310dc9b0"
+      ],
+      "_source": "scyto/ha-bluetooth-audio-manager",
+      "_owner": "scyto",
+      "_developer": "scyto",
+      "_store": "scyto",
+      "_storeUrl": "",
+      "developer": "scyto",
+      "stars": 23,
+      "forks": 0
+    },
+    {
+      "id": "htwind",
+      "name": "HTWind",
+      "subtitle": "HTML widgets and PowerShell tools for the Windows desktop.",
+      "description": "A desktop widget manager that brings HTML widgets, automation, and live editing to Windows.",
+      "longDescription": "HTWind is a customizable Windows widget manager built around HTML-based widgets. It supports desktop widgets, PowerShell execution, live preview editing, tray workflows, visibility rules, and persistent widget state so desktop tooling stays practical instead of decorative.",
+      "icon": null,
+      "iconEmoji": "🪟",
+      "developer": "sametcn99",
+      "downloadUrl": "https://github.com/sametcn99/HTWind/releases/latest",
+      "category": [
+        "productivity",
+        "developer-tools"
+      ],
+      "platform": "Windows",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/HTWind",
+      "homepage": "https://htwind.vercel.app",
+      "language": "C#",
+      "stars": 4,
+      "forks": 0,
+      "requirements": "Windows desktop environment",
+      "features": [
+        "HTML desktop widgets with lock and unlock interaction modes",
+        "Built-in PowerShell execution for quick system actions",
+        "Live widget editor with hot reload preview",
+        "Tray integration and smart fullscreen visibility suppression"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/sametcn99/HTWind/refs/heads/main/assets/app_screenshots/page_home.png",
+        "https://raw.githubusercontent.com/sametcn99/HTWind/refs/heads/main/assets/app_screenshots/page_settings.png"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
       "id": "istanbul",
       "name": "Istanbul",
       "subtitle": "Ambient Istanbul Soundscapes",
@@ -937,6 +1206,42 @@
       "developer": "Kagan Temizkan",
       "stars": 0,
       "forks": 0
+    },
+    {
+      "id": "linkedin-hide-viewed-jobs",
+      "name": "linkedin-hide-viewed-jobs",
+      "subtitle": "Hide or highlight viewed LinkedIn job posts.",
+      "description": "A privacy-first userscript that hides or marks viewed jobs across LinkedIn Jobs pages.",
+      "longDescription": "linkedin-hide-viewed-jobs is a userscript for LinkedIn Jobs focused on stability, multilingual detection, and safer scrolling. It can hide or highlight viewed listings, remembers preferences, supports LinkedIn SPA navigation, and includes guard logic to reduce the chance of rate-limit or bot-detection issues while browsing.",
+      "icon": null,
+      "iconEmoji": "💼",
+      "category": [
+        "productivity",
+        "developer-tools"
+      ],
+      "platform": "Browser",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/linkedin-hide-viewed-jobs",
+      "homepage": "https://sametcn99.github.io/linkedin-hide-viewed-jobs/",
+      "language": "TypeScript",
+      "stars": 3,
+      "forks": 0,
+      "developer": "sametcn99",
+      "requirements": "Tampermonkey or Violentmonkey in a supported browser",
+      "features": [
+        "Hide mode and highlight mode for viewed job posts",
+        "Scroll guard to reduce aggressive LinkedIn scrolling behavior",
+        "Draggable badge with live viewed and hidden counters",
+        "Multilingual viewed and applied detection across LinkedIn routes"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/sametcn99/linkedin-hide-viewed-jobs/refs/heads/master/screenshot.png"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "macabolic",
@@ -1063,6 +1368,42 @@
       "developer": "Furkan Cakir",
       "stars": 6,
       "forks": 0
+    },
+    {
+      "id": "mermaid-viewer",
+      "name": "Mermaid Viewer",
+      "subtitle": "Live Mermaid editor with instant preview and sharing.",
+      "description": "A modern Mermaid web app for editing, previewing, and sharing diagrams in real time.",
+      "longDescription": "Mermaid Viewer is a full web application for creating and sharing Mermaid diagrams with a polished editing workflow. It combines a Next.js frontend and NestJS backend so users can edit diagrams live, preview changes instantly, and share results through a purpose-built diagram interface rather than a raw code editor alone.",
+      "icon": null,
+      "iconEmoji": "📊",
+      "category": [
+        "web",
+        "developer-tools"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/mermaid-viewer",
+      "homepage": "https://mermaid.sametcc.me/home",
+      "language": "TypeScript",
+      "stars": 8,
+      "forks": 2,
+      "requirements": "Modern browser",
+      "developer": "sametcn99",
+      "features": [
+        "Real-time Mermaid editing with live preview",
+        "Shareable diagram workflow backed by a dedicated API",
+        "Monorepo setup with Next.js frontend and NestJS backend",
+        "Designed for fast iteration on documentation and diagramming"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/mermaid-viewer"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "munch",
@@ -1269,6 +1610,43 @@
       "forks": 0
     },
     {
+      "id": "product-planning-copilot",
+      "name": "product-planning-copilot",
+      "subtitle": "Documentation-first planning system teams can fork and adapt.",
+      "description": "A reusable repository template for PRDs, roadmaps, architecture notes, and planning quality gates.",
+      "longDescription": "product-planning-copilot is a forkable planning workspace for teams that want a consistent documentation-first process. It ships with project folder templates, requirement IDs, task and risk tracking conventions, reusable Copilot assets, and validation hooks that help planning artifacts stay structured as a project grows.",
+      "icon": null,
+      "iconEmoji": "🗂️",
+      "category": [
+        "developer-tools",
+        "productivity"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/product-planning-copilot",
+      "homepage": "https://sametcn99.github.io/product-planning-copilot/",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "developer": "sametcn99",
+      "installCommand": "git clone https://github.com/sametcn99/product-planning-copilot",
+      "requirements": "GitHub repository access and Node.js for validation tooling",
+      "features": [
+        "Project templates for briefs, PRDs, roadmaps, and architecture notes",
+        "Traceable requirement, task, and risk identifiers",
+        "Reusable Copilot instructions, prompts, and skill assets",
+        "Deterministic validation hook for planning quality gates"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/product-planning-copilot"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
       "id": "prompts-chat",
       "name": "Prompts.chat",
       "subtitle": "Community Prompt Collection",
@@ -1290,7 +1668,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152089,
+      "stars": 152094,
       "forks": 19987,
       "requirements": "Any modern browser",
       "features": [
@@ -1482,6 +1860,42 @@
       "_storeUrl": "",
       "stars": 0,
       "forks": 0
+    },
+    {
+      "id": "reddit-rss-api",
+      "name": "Reddit RSS API",
+      "subtitle": "Structured Reddit RSS feeds as filterable JSON.",
+      "description": "A Deno service that converts subreddit RSS feeds into JSON with filters, sorting, and random selection.",
+      "longDescription": "Reddit RSS API is a lightweight Deno-powered HTTP service that turns subreddit RSS feeds into structured JSON responses. It supports merging multiple subreddits, filtering media posts, sorting or shuffling results, limiting output size, and rewriting Reddit links for legacy old.reddit.com views.",
+      "icon": null,
+      "iconEmoji": "📰",
+      "category": [
+        "web",
+        "developer-tools"
+      ],
+      "platform": "Web API",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/reddit-rss-api",
+      "homepage": "https://reddit-rss-api.deno.dev",
+      "language": "TypeScript",
+      "stars": 4,
+      "forks": 1,
+      "developer": "sametcn99",
+      "requirements": "Any HTTP client or browser",
+      "features": [
+        "Merge feeds from multiple subreddits into one response",
+        "Filter media posts or fetch a random post on demand",
+        "Sort chronologically or shuffle results with mixed mode",
+        "Serve CORS-friendly JSON from a zero-dependency Deno runtime"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/reddit-rss-api"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "rn-maps",
@@ -1701,6 +2115,43 @@
       "developer": "Kagan Temizkan",
       "stars": 0,
       "forks": 0
+    },
+    {
+      "id": "vitepress-mermaid-renderer",
+      "name": "VitePress Mermaid Renderer",
+      "subtitle": "Interactive Mermaid diagrams for VitePress docs.",
+      "description": "A VitePress plugin that turns Mermaid code blocks into interactive diagrams with export and theme support.",
+      "longDescription": "Transform static Mermaid diagrams into interactive visualizations inside VitePress. The plugin adds zooming, panning, fullscreen mode, code copy, theme-aware rendering, and export options for documentation sites that need more than a static SVG.",
+      "icon": null,
+      "iconEmoji": "🧜",
+      "category": [
+        "developer-tools",
+        "web"
+      ],
+      "platform": "VitePress",
+      "price": "Free",
+      "github": "https://github.com/sametcn99/vitepress-mermaid-renderer",
+      "homepage": "https://vitepress-mermaid-renderer.vercel.app",
+      "language": "TypeScript",
+      "stars": 46,
+      "forks": 5,
+      "installCommand": "npm install vitepress-mermaid-renderer",
+      "requirements": "A VitePress project with Mermaid diagrams",
+      "features": [
+        "Zoom, pan, and reset controls for complex Mermaid diagrams",
+        "Fullscreen mode for distraction-free diagram review",
+        "Theme-aware rendering that follows light and dark mode",
+        "Export diagrams as SVG, PNG, or JPG"
+      ],
+      "screenshots": [
+        "https://opengraph.githubassets.com/1/sametcn99/vitepress-mermaid-renderer"
+      ],
+      "_source": "sametcn99/apps",
+      "_owner": "sametcn99",
+      "_developer": "sametcn99",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.sametcc.me",
+      "developer": "sametcn99"
     },
     {
       "id": "wordle",
