@@ -35,8 +35,6 @@ The current `featured.json` looks like this:
 2. Read the current `featured.json` to see what's currently featured
 3. Select **4 apps** for the new featured list using these criteria:
    - Pick from **different stores** (`_store` field) to ensure variety
-   - Prefer apps with **screenshots** (they look better in the carousel)
-   - Prefer apps with **higher star counts** — they're more popular
    - **Rotate**: at least 2 of the 4 should be different from the current featured list
    - Always keep at least 1 app with very high stars (>1000) as an anchor
 4. For each selected app, write a compelling featured entry:
