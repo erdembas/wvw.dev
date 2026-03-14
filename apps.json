@@ -1184,7 +1184,7 @@
       "github": "https://github.com/DodoApps/dodoservice",
       "homepage": null,
       "language": "Swift",
-      "stars": 7,
+      "stars": 8,
       "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -2838,7 +2838,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152300,
+      "stars": 152303,
       "forks": 20017,
       "requirements": "Any modern browser",
       "features": [
@@ -2922,7 +2922,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 152300,
+      "stars": 152303,
       "forks": 20017,
       "requirements": "Any modern browser",
       "features": [
@@ -3264,6 +3264,7 @@
       "github": "https://github.com/bilustek/secretdrop",
       "homepage": "https://secretdrop.us",
       "language": "Go, JavaScript",
+      "requirements": "Any modern web browser",
       "features": [
         "End-to-end encrypted secret sharing",
         "Self-destructing links after first view",
