@@ -1257,7 +1257,8 @@
             storeMap[key].icons.push({ icon: app.icon, iconStyle: app.iconStyle });
           }
         });
-        storesData = Object.values(storeMap);
+        storesData = Object.values(storeMap)
+          .sort((a, b) => b.appCount - a.appCount || b.totalStars - a.totalStars);
       }
     } catch {
       $("#contentScroll").innerHTML = `

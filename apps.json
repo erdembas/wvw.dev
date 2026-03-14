@@ -2262,28 +2262,7 @@
       "_developer": "İlker Balcılar",
       "_store": "Jubstaa's App Store",
       "_storeUrl": "",
-      "developer": "İlker Balcılar",
-      "_comments": [
-        {
-          "user": "HexiDev",
-          "avatar": "https://avatars.githubusercontent.com/u/59119671?v=4",
-          "title": "[BUG] @hono-telescope/types doesn't exist",
-          "body": "## 🐛 Bug Description\n\n@hono-telescope/types is missing from the package\n\n## 📝 Steps to Reproduce\n\nSteps to reproduce the behavior:\n\n1. Setup Telescope with hono\n2. Start the hono server\n\n## 🔍 Expected Behavior\n\nStarting\n\n## 🖼️ Screenshots/Logs\n\n```\nnode:internal/modules/cjs/loader:1249\n  const err =",
-          "url": "https://github.com/Jubstaaa/hono-telescope/issues/1",
-          "created_at": "2025-10-31T18:30:01Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "İlker Balcılar"
     },
     {
       "id": "htwind",
@@ -2321,47 +2300,7 @@
       "_owner": "sametcn99",
       "_developer": "sametcn99",
       "_store": "sametcn99's Apps",
-      "_storeUrl": "https://apps.sametcc.me",
-      "_comments": [
-        {
-          "user": "sametcn99",
-          "avatar": "https://avatars.githubusercontent.com/u/57061347?v=4",
-          "title": "feat: Per-widget PowerShell Permission Toggle (UI)",
-          "body": "Add a per-widget PowerShell permission control in the application UI that lets users grant or revoke PowerShell access for each widget. The UI toggle persists the user's decision and is enforced by the host API: when a widget's PowerShell permission is revoked, any host API calls from that widget th",
-          "url": "https://github.com/sametcn99/HTWind/issues/3",
-          "created_at": "2026-02-25T08:30:02Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "sametcn99",
-          "avatar": "https://avatars.githubusercontent.com/u/57061347?v=4",
-          "title": "Add configurable Built-in Features API (patterned after PowerShell host bridge)",
-          "body": "Introduce a host-side API (mirroring the PowerShell bridge pattern) that allows HTML widgets to read and update the application's built-in feature configuration via JavaScript. This API requires explicit consent for sensitive operations, persists changes, and is discoverable by widgets at runtime — ",
-          "url": "https://github.com/sametcn99/HTWind/issues/2",
-          "created_at": "2026-02-25T08:27:34Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "istanbul",
@@ -2432,9 +2371,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "linkedin-hide-viewed-jobs",
@@ -2470,28 +2407,7 @@
       "_owner": "sametcn99",
       "_developer": "sametcn99",
       "_store": "sametcn99's Apps",
-      "_storeUrl": "https://apps.sametcc.me",
-      "_comments": [
-        {
-          "user": "sametcn99",
-          "avatar": "https://avatars.githubusercontent.com/u/57061347?v=4",
-          "title": "[NEED HELP] userscript stops detecting viewed jobs after navigation to /jobs/collections/* — avoid reloading page",
-          "body": "When navigating from LinkedIn’s `/jobs` (or other jobs routes) into `/jobs/collections/*` subpaths the userscript loses its detection of “viewed” job cards. I want the script to continue working across those SPA navigations without forcing a full page reload (reloading the page is a poor UX). I’m st",
-          "url": "https://github.com/sametcn99/linkedin-hide-viewed-jobs/issues/1",
-          "created_at": "2026-03-01T09:25:52Z",
-          "reactions": {
-            "total": 1,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 1,
-            "eyes": 0
-          }
-        }
-      ]
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "macabolic",
@@ -2515,8 +2431,8 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 241,
-      "forks": 5,
+      "stars": 79,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -2537,104 +2453,7 @@
       "_owner": "DodoApps",
       "_developer": "DodoApps",
       "_store": "DodoApps",
-      "_storeUrl": "",
-      "_comments": [
-        {
-          "user": "Estrarc",
-          "avatar": "https://avatars.githubusercontent.com/u/202203607?v=4",
-          "title": "[Bug] \"Requested format is not available\" error on URL input — no format selection shown",
-          "body": "Describe the bug\nWhen adding a YouTube URL, Macabolic doesn't show the format/quality selection screen at all — it immediately throws an error and the download never starts.\nTo Reproduce\n\nOpen Macabolic\nPaste a YouTube URL\nNo format selection appears\nDownload fails immediately with the error below\n\n",
-          "url": "https://github.com/alinuxpengui/Macabolic/issues/13",
-          "created_at": "2026-02-22T22:42:03Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "sdMickey",
-          "avatar": "https://avatars.githubusercontent.com/u/54260201?v=4",
-          "title": "Stuck in yt-dlp update",
-          "body": "<img width=\"1012\" height=\"764\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e01690fb-16df-45ab-9b99-e48c9486a0c3\" />\n\nIt's stuck here. I have tried downloading yt-dlp separately through brew. It downloaded successfully but Macabolic is unable to fetch it. \n\nEven after that, of I click",
-          "url": "https://github.com/alinuxpengui/Macabolic/issues/12",
-          "created_at": "2026-02-22T16:48:15Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "mrfixpl",
-          "avatar": "https://avatars.githubusercontent.com/u/103274854?v=4",
-          "title": "Settings GUI issue",
-          "body": "Going into settings and switching tab to \"Download\" will cause elements to be outside the view. No option to resize the window, close the window, change tab, nor close the app itself.\n\nProcess needs to be killed and app restarted.\n\n`macOS 12.7.6`\n\n<img width=\"1012\" height=\"764\" alt=\"Image\" src=\"http",
-          "url": "https://github.com/alinuxpengui/Macabolic/issues/11",
-          "created_at": "2026-02-16T07:29:50Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "whateverpop",
-          "avatar": "https://avatars.githubusercontent.com/u/20801072?v=4",
-          "title": "more video & audio codec options?",
-          "body": "Heya again, I was wondering if its possible to support more video & audio codes - specifically I'm wondering about this profile:\n\nvcodec: mpeg2\nacodec: mpeg audio, 128 bitrate, 2 channel, 44100 sample rate\n\nIdeally I'd also like to resize the video to 320 x 240. Is that possible in your gui?\n\nI'm us",
-          "url": "https://github.com/alinuxpengui/Macabolic/issues/10",
-          "created_at": "2026-02-03T10:22:00Z",
-          "reactions": {
-            "total": 1,
-            "thumbsUp": 1,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "whateverpop",
-          "avatar": "https://avatars.githubusercontent.com/u/20801072?v=4",
-          "title": "BiliBili download",
-          "body": "",
-          "url": "https://github.com/alinuxpengui/Macabolic/issues/9",
-          "created_at": "2026-02-03T10:06:20Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "_storeUrl": ""
     },
     {
       "id": "mcptools",
@@ -2657,7 +2476,7 @@
       "github": "https://github.com/f/mcptools",
       "homepage": null,
       "language": "Go",
-      "stars": 1520,
+      "stars": 1518,
       "forks": 116,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
@@ -2679,66 +2498,7 @@
       "_developer": "Fatih Kadir Akin",
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
-      "developer": "Fatih Kadir Akin",
-      "_comments": [
-        {
-          "user": "jritsema",
-          "avatar": "https://avatars.githubusercontent.com/u/934927?v=4",
-          "title": "Support for inline environment variables",
-          "body": "Many MCP servers have required envvars. It appears that they are not supported in the `mcp tools` command? For example:\n\n```sh\n$ mcp tools AWS_REGION=us-east-1 FASTMCP_LOG_LEVEL=ERROR uvx awslabs.aws-api-mcp-server@latest\nError: failed to start stdio transport: failed to start command: exec: \"AWS_RE",
-          "url": "https://github.com/f/mcptools/issues/92",
-          "created_at": "2026-01-03T18:21:13Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "g-click-trade",
-          "avatar": "https://avatars.githubusercontent.com/u/244969012?v=4",
-          "title": "Feature Request: Support HTTP Authorization headers for direct CLI usage",
-          "body": "🤖 *Written by Claude Code*\n\n---\n\n\n## Summary\n\nAdd support for passing HTTP Authorization headers when using `mcptools` CLI commands (`tools`, `call`, `shell`) with HTTP/SSE MCP servers that require authentication.\n\n## Use Case\n\nMany MCP servers (like [Linear's MCP server](https://linear.app/docs/mcp",
-          "url": "https://github.com/f/mcptools/issues/91",
-          "created_at": "2025-12-22T21:13:03Z",
-          "reactions": {
-            "total": 6,
-            "thumbsUp": 6,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "hawktang",
-          "avatar": "https://avatars.githubusercontent.com/u/2004071?v=4",
-          "title": "If it possible to add customized cert support",
-          "body": "Could you please add customized cert support like   --cacert, --ca-bundle and env support?",
-          "url": "https://github.com/f/mcptools/issues/88",
-          "created_at": "2025-12-16T05:44:56Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Fatih Kadir Akin"
     },
     {
       "id": "mergen-ade",
@@ -2771,9 +2531,7 @@
       "_developer": "Furkan Cakir",
       "_store": "Mergen ADE",
       "_storeUrl": "",
-      "developer": "Furkan Cakir",
-      "stars": 6,
-      "forks": 0
+      "developer": "Furkan Cakir"
     },
     {
       "id": "mermaid-viewer",
@@ -2842,9 +2600,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 0,
-      "forks": 0
+      "developer": "Philip Brocoum"
     },
     {
       "id": "my-net-worth",
@@ -2936,9 +2692,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "outlook365-cli",
@@ -2979,87 +2733,7 @@
       "_developer": "Yusuf Altunbicak",
       "_store": "Yusuf's Apps",
       "_storeUrl": "",
-      "developer": "Yusuf Altunbicak",
-      "stars": 3,
-      "forks": 0,
-      "_comments": [
-        {
-          "user": "yusufaltunbicak",
-          "avatar": "https://avatars.githubusercontent.com/u/184093786?v=4",
-          "title": "Add `outlook open` to open messages and events in browser",
-          "body": "## Problem\n\nSometimes you need to switch from CLI to the full Outlook web UI — to see rich HTML formatting, download attachments visually, or use the compose editor. Currently there's no quick way to jump from a CLI message to the browser.\n\n## Proposed solution\n\nAn `open` command that opens the Outl",
-          "url": "https://github.com/yusufaltunbicak/outlook-cli/issues/4",
-          "created_at": "2026-03-14T10:46:42Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "yusufaltunbicak",
-          "avatar": "https://avatars.githubusercontent.com/u/184093786?v=4",
-          "title": "Add `outlook export` for bulk CSV/JSON export with date filters",
-          "body": "## Problem\n\nNo way to bulk export emails to a file for reporting or archiving. The `-o` flag on `inbox` and `search` saves JSON, but there's no CSV support or dedicated export workflow for large date ranges.\n\n## Proposed solution\n\nAn `export` command that paginates through results and writes to CSV ",
-          "url": "https://github.com/yusufaltunbicak/outlook-cli/issues/3",
-          "created_at": "2026-03-14T10:46:31Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "yusufaltunbicak",
-          "avatar": "https://avatars.githubusercontent.com/u/184093786?v=4",
-          "title": "Add `outlook thread` to view full conversation chain",
-          "body": "## Problem\n\n`outlook read 3` shows a single message. If that message is part of a long conversation (Re: Re: Re:...), there's no way to see the full thread without reading each message individually.\n\n## Proposed solution\n\nA `thread` command that fetches all messages sharing the same `ConversationId`",
-          "url": "https://github.com/yusufaltunbicak/outlook-cli/issues/2",
-          "created_at": "2026-03-14T10:46:20Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "yusufaltunbicak",
-          "avatar": "https://avatars.githubusercontent.com/u/184093786?v=4",
-          "title": "Add `outlook watch` for real-time inbox monitoring",
-          "body": "## Problem\n\nNo way to monitor incoming emails without repeatedly running `outlook inbox`. Users working in the terminal have to manually check for new messages.\n\n## Proposed solution\n\nA `watch` command that polls for new messages at a configurable interval and prints them as they arrive.\n\n```bash\nou",
-          "url": "https://github.com/yusufaltunbicak/outlook-cli/issues/1",
-          "created_at": "2026-03-14T10:46:09Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Yusuf Altunbicak"
     },
     {
       "id": "philnav",
@@ -3098,30 +2772,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 5,
-      "forks": 3,
-      "_comments": [
-        {
-          "user": "Ciantic",
-          "avatar": "https://avatars.githubusercontent.com/u/64731?v=4",
-          "title": "I made an USB plug & play mode with zero-hid",
-          "body": "First of all, great work!\n\nIf you are interested here is my \"plug & play\" USB mode:\n\nhttps://github.com/ciantic/pycamera-mouse\n\nIt was relatively easy to make, only gotcha was that using the zero-hid package was not straightforward, if I tried to use the \"official\" Python package it cratered the fra",
-          "url": "https://github.com/stedwick/PhilNav-Python-RaspberryPi/issues/1",
-          "created_at": "2025-03-17T22:20:07Z",
-          "reactions": {
-            "total": 1,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 1,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Philip Brocoum"
     },
     {
       "id": "pinkcloud-timer",
@@ -3240,9 +2891,7 @@
       "_developer": "akeslo",
       "_store": "Akeslo Apps",
       "_storeUrl": "",
-      "developer": "akeslo",
-      "stars": 0,
-      "forks": 0
+      "developer": "akeslo"
     },
     {
       "id": "poker-tracker",
@@ -3274,9 +2923,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 1,
-      "forks": 0
+      "developer": "Philip Brocoum"
     },
     {
       "id": "product-planning-copilot",
@@ -3365,8 +3012,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152331,
-      "forks": 20019,
+      "stars": 152205,
+      "forks": 20002,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -3385,47 +3032,7 @@
       "_developer": "Fatih Kadir Akin",
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
-      "developer": "Fatih Kadir Akin",
-      "_comments": [
-        {
-          "user": "altuneri218-arch",
-          "avatar": "https://avatars.githubusercontent.com/u/267364603?v=4",
-          "title": "promtumu ve hesabımı silmek istiyorum",
-          "body": "promtumu ve hesabımı silmek istiyorum",
-          "url": "https://github.com/f/prompts.chat/issues/1071",
-          "created_at": "2026-03-11T14:32:41Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "aniruddhaadak80",
-          "avatar": "https://avatars.githubusercontent.com/u/127435065?v=4",
-          "title": "Testing & Reliability: Introduce Playwright End-to-End (E2E) tests for container resilience",
-          "body": "﻿### Problem Description\nCurrently, the \\prompts.chat\\ codebase validates isolated logic components using Vitest, which is great for unit testing. However, recent infrastructure-level bugs (such as #1025 or #1039 causing fatal crashed during Docker deployment & NextAuth initialization) have bypassed",
-          "url": "https://github.com/f/prompts.chat/issues/1065",
-          "created_at": "2026-03-10T13:37:41Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Fatih Kadir Akin"
     },
     {
       "id": "prompts-chat-book",
@@ -3449,8 +3056,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 152331,
-      "forks": 20019,
+      "stars": 151687,
+      "forks": 19928,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -3469,47 +3076,7 @@
       "_developer": "Fatih Kadir Akin",
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
-      "developer": "Fatih Kadir Akin",
-      "_comments": [
-        {
-          "user": "altuneri218-arch",
-          "avatar": "https://avatars.githubusercontent.com/u/267364603?v=4",
-          "title": "promtumu ve hesabımı silmek istiyorum",
-          "body": "promtumu ve hesabımı silmek istiyorum",
-          "url": "https://github.com/f/prompts.chat/issues/1071",
-          "created_at": "2026-03-11T14:32:41Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "aniruddhaadak80",
-          "avatar": "https://avatars.githubusercontent.com/u/127435065?v=4",
-          "title": "Testing & Reliability: Introduce Playwright End-to-End (E2E) tests for container resilience",
-          "body": "﻿### Problem Description\nCurrently, the \\prompts.chat\\ codebase validates isolated logic components using Vitest, which is great for unit testing. However, recent infrastructure-level bugs (such as #1025 or #1039 causing fatal crashed during Docker deployment & NextAuth initialization) have bypassed",
-          "url": "https://github.com/f/prompts.chat/issues/1065",
-          "created_at": "2026-03-10T13:37:41Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Fatih Kadir Akin"
     },
     {
       "id": "radioheavy-avalon",
@@ -3558,9 +3125,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 0,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-captioneer",
@@ -3600,9 +3165,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 1,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-wiro-cli",
@@ -3640,9 +3203,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 1,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-wiro-models-cleaner",
@@ -3678,9 +3239,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 0,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "reddit-rss-api",
@@ -3716,28 +3275,7 @@
       "_owner": "sametcn99",
       "_developer": "sametcn99",
       "_store": "sametcn99's Apps",
-      "_storeUrl": "https://apps.sametcc.me",
-      "_comments": [
-        {
-          "user": "ThatLurker",
-          "avatar": "https://avatars.githubusercontent.com/u/1533244?v=4",
-          "title": "Option to use the old.reddit.com subdomain for links",
-          "body": "Would it be possible to have an option to use the old.reddit.com subdomain for links for us that still like to use that :-)",
-          "url": "https://github.com/sametcn99/reddit-rss-api/issues/1",
-          "created_at": "2024-12-02T16:03:15Z",
-          "reactions": {
-            "total": 1,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 1,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "_storeUrl": "https://apps.sametcc.me"
     },
     {
       "id": "rerun-timer",
@@ -3819,9 +3357,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "secretdrop",
@@ -3864,9 +3400,7 @@
       "_owner": "bilustek",
       "_developer": "Bilustek LLC",
       "_store": "Bilustek",
-      "_storeUrl": "",
-      "stars": 5,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "shelf",
@@ -3909,28 +3443,7 @@
       "_developer": "Fatih Kadir Akin",
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
-      "developer": "Fatih Kadir Akin",
-      "_comments": [
-        {
-          "user": "EminBudak",
-          "avatar": "https://avatars.githubusercontent.com/u/1125634?v=4",
-          "title": "Feature Request: Mini Sticky Note in Dock (Quick 6–7 Line Notes)",
-          "body": "Summary\n\nIt would be great to have a small sticky note feature accessible directly from the dock for quick, temporary notes.\n\nUse Case\n\nSometimes you just need a lightweight space to quickly jot something down — a short idea, temporary todo, copied text, or a reminder — without opening a full editor",
-          "url": "https://github.com/f/shelf/issues/1",
-          "created_at": "2026-02-12T19:38:50Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Fatih Kadir Akin"
     },
     {
       "id": "sql-prep",
@@ -4000,9 +3513,7 @@
       "_developer": "Kazuki Shibutani",
       "_store": "Shibutani Software Lab",
       "_storeUrl": "",
-      "developer": "Kazuki Shibutani",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kazuki Shibutani"
     },
     {
       "id": "tater-talk",
@@ -4063,7 +3574,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 1989,
+      "stars": 1985,
       "forks": 138,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
@@ -4085,104 +3596,7 @@
       "_developer": "Fatih Kadir Akin",
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
-      "developer": "Fatih Kadir Akin",
-      "_comments": [
-        {
-          "user": "adrrs",
-          "avatar": "https://avatars.githubusercontent.com/u/8449121?v=4",
-          "title": "Not working on macOS 15",
-          "body": "Despite what it says in your release notes, the app is not compatible with macOS 15. Neither dmg file work.",
-          "url": "https://github.com/f/textream/issues/19",
-          "created_at": "2026-03-05T08:51:42Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "prayaslashkari",
-          "avatar": "https://avatars.githubusercontent.com/u/25193916?v=4",
-          "title": "Follow Cursor Mode Bug",
-          "body": "Window should automatically move to the left when there's no space at the right.",
-          "url": "https://github.com/f/textream/issues/18",
-          "created_at": "2026-03-03T18:56:58Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "parinkatariya",
-          "avatar": "https://avatars.githubusercontent.com/u/201958346?v=4",
-          "title": "Add transparent notch support so it's not intrusive and still serves the purpose",
-          "body": "",
-          "url": "https://github.com/f/textream/issues/17",
-          "created_at": "2026-02-27T09:07:39Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "lumik0",
-          "avatar": "https://avatars.githubusercontent.com/u/75566052?v=4",
-          "title": "read text from other people",
-          "body": "Can I read text from other people using someone else's voice? This is convenient for deaf and hard-of-hearing people. I need a program like this\n\nIs this feature available in textream? If not, please consider adding it ❤️",
-          "url": "https://github.com/f/textream/issues/16",
-          "created_at": "2026-02-24T16:39:13Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "ashishpawar517",
-          "avatar": "https://avatars.githubusercontent.com/u/29516182?v=4",
-          "title": "Does not support macos m1 15.1.1",
-          "body": "I just downloaded latest release DMG from the repo and also tried with brew but It is asking me to update OS to run the app. \n\nIs there specific latest version requirements  for textream?",
-          "url": "https://github.com/f/textream/issues/14",
-          "created_at": "2026-02-20T07:35:38Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "Fatih Kadir Akin"
     },
     {
       "id": "trip-invoice",
@@ -4203,9 +3617,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "unified-audio-control",
@@ -4223,9 +3635,7 @@
       "_developer": "akeslo",
       "_store": "Akeslo Apps",
       "_storeUrl": "",
-      "developer": "akeslo",
-      "stars": 0,
-      "forks": 0
+      "developer": "akeslo"
     },
     {
       "id": "vitepress-mermaid-renderer",
@@ -4262,85 +3672,7 @@
       "_developer": "sametcn99",
       "_store": "sametcn99's Apps",
       "_storeUrl": "https://apps.sametcc.me",
-      "developer": "sametcn99",
-      "_comments": [
-        {
-          "user": "axefrog",
-          "avatar": "https://avatars.githubusercontent.com/u/298883?v=4",
-          "title": "const mermaidRenderer <-- why?",
-          "body": "As best I can tell the const variable assignment is unused. I can't see any mention of a reason for the assignment or if I'm supposed to do something with it. Perhaps you could help alleviate this confusion for me?",
-          "url": "https://github.com/sametcn99/vitepress-mermaid-renderer/issues/6",
-          "created_at": "2026-02-28T07:16:44Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "Roy0815",
-          "avatar": "https://avatars.githubusercontent.com/u/19552716?v=4",
-          "title": "Switching Theme will not re-render mermaid charts",
-          "body": "Using the build in vitepress theme switch (dark vs. light) I have not found a way to re-render mermaid charts on this action.\n\nMy `theme/index.ts` looks like this:\n```js\nimport { h, nextTick, watchEffect } from 'vue';\nimport type { Theme } from 'vitepress';\nimport DefaultTheme from 'vitepress/theme'",
-          "url": "https://github.com/sametcn99/vitepress-mermaid-renderer/issues/4",
-          "created_at": "2025-10-31T11:42:01Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "Whax",
-          "avatar": "https://avatars.githubusercontent.com/u/5028767?v=4",
-          "title": "Diagram doesn't fit the size of the rendered zone",
-          "body": "Hi,\n\nfirst thank you for the work. I'll like to report a problem related to the scale / zoom of the rendered diagram. Here it's a basic gitflow, taken from your examples.\n\n### Description\n\n> Default scale of rendered diagram doesn't fit the size of the displayed zone\n---\n\n### Expected Behavior\n\n> Th",
-          "url": "https://github.com/sametcn99/vitepress-mermaid-renderer/issues/3",
-          "created_at": "2025-07-20T12:26:06Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        },
-        {
-          "user": "wilsonwangdev",
-          "avatar": "https://avatars.githubusercontent.com/u/23159565?v=4",
-          "title": "Remove disturbing debug log of \"MermaidRenderer initialization skipped: non-browser environment\"",
-          "body": "https://github.com/sametcn99/vitepress-mermaid-renderer/blob/6ab4b7d97bdb907245bf2cf9a485e323afd7c4bc/src/MermaidRenderer.ts#L111\n\nThis debug log repeatly shows in console because vitepress renders each page in non-browser environment(SSR).\n\n<img width=\"1037\" alt=\"Image\" src=\"https://github.com/user",
-          "url": "https://github.com/sametcn99/vitepress-mermaid-renderer/issues/2",
-          "created_at": "2025-03-19T06:09:26Z",
-          "reactions": {
-            "total": 0,
-            "thumbsUp": 0,
-            "thumbsDown": 0,
-            "laugh": 0,
-            "hooray": 0,
-            "confused": 0,
-            "heart": 0,
-            "rocket": 0,
-            "eyes": 0
-          }
-        }
-      ]
+      "developer": "sametcn99"
     },
     {
       "id": "whisperwrap",
@@ -4358,9 +3690,7 @@
       "_developer": "akeslo",
       "_store": "Akeslo Apps",
       "_storeUrl": "",
-      "developer": "akeslo",
-      "stars": 0,
-      "forks": 0
+      "developer": "akeslo"
     },
     {
       "id": "wordle",
@@ -4388,9 +3718,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     }
   ]
 }
