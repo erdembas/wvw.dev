@@ -1,0 +1,353 @@
+name: Review New Store Submission
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - stores.json
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get new store entries from PR diff
+        id: diff
+        run: |
+          git diff origin/master...HEAD -- stores.json | grep '^+' | grep -v '^+++' | sed 's/^+//' | grep -E '"' | sed 's/[",]//g' | xargs -I{} echo {} > /tmp/new_stores.txt
+          cat /tmp/new_stores.txt
+          echo "count=$(wc -l < /tmp/new_stores.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Review store submissions
+        if: steps.diff.outputs.count != '0'
+        uses: actions/github-script@v7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COPILOT_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        with:
+          script: |
+            const fs = require('fs');
+            const https = require('https');
+            const http = require('http');
+
+            const ALLOWED_CATEGORIES = [
+              "macos","web","cli","developer-tools","productivity","utilities",
+              "education","entertainment","games","music","photo-video",
+              "graphics-design","social-networking","finance","health-fitness",
+              "lifestyle","news","business","reference","travel","food-drink",
+              "navigation","sports","weather","shopping","books","medical"
+            ];
+
+            const REQUIRED_APP_FIELDS = ["id","name","subtitle","description","category","platform","price","github"];
+
+            function httpFetch(url) {
+              return new Promise((resolve, reject) => {
+                const mod = url.startsWith("https") ? https : http;
+                mod.get(url, { headers: { "User-Agent": "wvw-review-bot" } }, (res) => {
+                  if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+                    return httpFetch(res.headers.location).then(resolve, reject);
+                  }
+                  let data = "";
+                  res.on("data", (c) => data += c);
+                  res.on("end", () => resolve({ status: res.statusCode, body: data }));
+                }).on("error", reject);
+              });
+            }
+
+            function copilotChat(token, messages) {
+              return new Promise((resolve, reject) => {
+                const body = JSON.stringify({
+                  model: "gpt-4o",
+                  messages,
+                  temperature: 0.3,
+                  max_tokens: 2000,
+                });
+                const req = https.request({
+                  hostname: "api.githubcopilot.com",
+                  path: "/chat/completions",
+                  method: "POST",
+                  headers: {
+                    "Authorization": `Bearer ${token}`,
+                    "Content-Type": "application/json",
+                    "Content-Length": Buffer.byteLength(body),
+                    "Copilot-Integration-Id": "vscode-chat",
+                    "Editor-Version": "vscode/1.96.0",
+                  },
+                }, (res) => {
+                  let data = "";
+                  res.on("data", (c) => data += c);
+                  res.on("end", () => {
+                    if (res.statusCode !== 200) {
+                      reject(new Error(`Copilot API ${res.statusCode}: ${data.slice(0, 200)}`));
+                      return;
+                    }
+                    try {
+                      const json = JSON.parse(data);
+                      resolve(json.choices?.[0]?.message?.content || "");
+                    } catch (e) { reject(e); }
+                  });
+                });
+                req.on("error", reject);
+                req.write(body);
+                req.end();
+              });
+            }
+
+            const newStores = fs.readFileSync("/tmp/new_stores.txt", "utf8")
+              .split("\n").map(s => s.trim()).filter(Boolean);
+
+            if (newStores.length === 0) {
+              core.info("No new stores found in diff");
+              return;
+            }
+
+            let comment = "## 🏪 Store Submission Review\n\n";
+            comment += `Found **${newStores.length}** new store${newStores.length > 1 ? "s" : ""} in this PR.\n\n`;
+
+            const allStoreApps = [];
+
+            for (const entry of newStores) {
+              comment += `---\n\n### \`${entry}\`\n\n`;
+
+              let rawUrl;
+              if (entry.startsWith("http")) {
+                rawUrl = entry;
+              } else {
+                rawUrl = `https://raw.githubusercontent.com/${entry}/HEAD/apps.json`;
+              }
+
+              let res;
+              try {
+                res = await httpFetch(rawUrl);
+              } catch (e) {
+                comment += `❌ **Could not fetch** \`apps.json\` from \`${rawUrl}\`\n`;
+                comment += `> Network error: ${e.message}\n\n`;
+                continue;
+              }
+
+              if (res.status !== 200) {
+                comment += `❌ **\`apps.json\` not found** (HTTP ${res.status})\n`;
+                comment += `> URL: \`${rawUrl}\`\n`;
+                comment += `> Make sure the file exists at the root of the repo's default branch.\n\n`;
+                continue;
+              }
+
+              let data;
+              try {
+                data = JSON.parse(res.body);
+              } catch {
+                comment += `❌ **\`apps.json\` is not valid JSON**\n`;
+                comment += `> Parse error — check for trailing commas or syntax issues.\n\n`;
+                continue;
+              }
+
+              comment += `✅ **\`apps.json\` found and valid JSON**\n\n`;
+
+              // Store-level checks
+              const storeIssues = [];
+              if (!data.store) {
+                storeIssues.push("Missing `store` object (required)");
+              } else {
+                if (!data.store.name) storeIssues.push("Missing `store.name` (required)");
+                if (!data.store.developer) storeIssues.push("Missing `store.developer` (required)");
+                if (!data.store.tagline) storeIssues.push("💡 Consider adding a `store.tagline`");
+                if (!data.store.github) storeIssues.push("💡 Consider adding `store.github` for attribution");
+              }
+
+              if (storeIssues.length > 0) {
+                comment += "**Store metadata:**\n";
+                storeIssues.forEach(i => comment += `- ${i}\n`);
+                comment += "\n";
+              } else {
+                comment += `**Store:** ${data.store.name} by ${data.store.developer}\n\n`;
+              }
+
+              // Apps checks
+              const apps = data.apps || [];
+              if (apps.length === 0) {
+                comment += "⚠️ **No apps found** in the `apps` array.\n\n";
+                continue;
+              }
+
+              comment += `**${apps.length} app${apps.length > 1 ? "s" : ""}** found:\n\n`;
+
+              comment += "| App | Issues | Suggestions |\n";
+              comment += "|-----|--------|-------------|\n";
+
+              let totalIssues = 0;
+              let totalSuggestions = 0;
+
+              for (const app of apps) {
+                const issues = [];
+                const suggestions = [];
+
+                for (const field of REQUIRED_APP_FIELDS) {
+                  if (!app[field] && app[field] !== 0) {
+                    issues.push(`Missing \`${field}\``);
+                  }
+                }
+
+                if (Array.isArray(app.category)) {
+                  const invalid = app.category.filter(c => !ALLOWED_CATEGORIES.includes(c));
+                  if (invalid.length > 0) {
+                    issues.push(`Invalid categories: ${invalid.map(c => `\`${c}\``).join(", ")}`);
+                  }
+                  if (app.category.length === 0) {
+                    issues.push("Empty `category` array");
+                  }
+                } else if (app.category) {
+                  issues.push("`category` should be an array");
+                }
+
+                if (app.id && app.id !== app.id.toLowerCase()) {
+                  suggestions.push("Use lowercase `id`");
+                }
+                if (app.id && /\s/.test(app.id)) {
+                  issues.push("`id` contains spaces");
+                }
+                if (!app.icon && !app.iconEmoji) {
+                  suggestions.push("Add an `icon` URL or `iconEmoji`");
+                }
+                if (!app.screenshots || app.screenshots.length === 0) {
+                  suggestions.push("Add `screenshots` for a better listing");
+                }
+                if (!app.longDescription) {
+                  suggestions.push("Add `longDescription` for the detail page");
+                }
+                if (!app.features || app.features.length === 0) {
+                  suggestions.push("Add `features` list");
+                }
+                if (!app.brew && !app.installCommand && !app.downloadUrl) {
+                  suggestions.push("Add `brew`, `installCommand`, or `downloadUrl`");
+                }
+                if (!app.language) {
+                  suggestions.push("Add `language`");
+                }
+                if (!app.requirements) {
+                  suggestions.push("Add `requirements`");
+                }
+                if (app.subtitle && app.subtitle.length > 60) {
+                  suggestions.push("`subtitle` is long (>60 chars), consider shortening");
+                }
+                if (app.subtitle && app.subtitle.length < 10) {
+                  suggestions.push("`subtitle` is very short (<10 chars)");
+                }
+                if (app.subtitle && app.subtitle.endsWith(".")) {
+                  suggestions.push("`subtitle` shouldn't end with a period (it's a tagline)");
+                }
+                if (app.github && !app.github.startsWith("https://github.com/")) {
+                  issues.push("`github` should be a full GitHub URL");
+                }
+
+                totalIssues += issues.length;
+                totalSuggestions += suggestions.length;
+
+                const name = app.name || app.id || "???";
+                const issueStr = issues.length > 0 ? issues.join("<br>") : "✅ None";
+                const suggestStr = suggestions.length > 0 ? suggestions.join("<br>") : "✨ Looks great";
+                comment += `| **${name}** | ${issueStr} | ${suggestStr} |\n`;
+              }
+
+              comment += "\n";
+
+              if (totalIssues === 0 && totalSuggestions === 0) {
+                comment += "🎉 **Everything looks great!** Ready to merge.\n\n";
+              } else if (totalIssues === 0) {
+                comment += `✅ **No blocking issues.** ${totalSuggestions} optional suggestion${totalSuggestions > 1 ? "s" : ""} to improve the listing.\n\n`;
+              } else {
+                comment += `⚠️ **${totalIssues} issue${totalIssues > 1 ? "s" : ""}** to fix before merging. ${totalSuggestions} optional suggestion${totalSuggestions > 1 ? "s" : ""}.\n\n`;
+              }
+
+              allStoreApps.push({ entry, store: data.store, apps });
+            }
+
+            // AI-powered suggestions via Copilot
+            const copilotToken = process.env.COPILOT_TOKEN;
+            if (copilotToken && allStoreApps.length > 0) {
+              comment += `---\n\n### 🤖 AI Suggestions\n\n`;
+
+              const appSummaries = allStoreApps.flatMap(({ entry, store, apps }) =>
+                apps.slice(0, 15).map(a => ({
+                  store: entry,
+                  id: a.id,
+                  name: a.name,
+                  subtitle: a.subtitle,
+                  description: a.description,
+                  longDescription: a.longDescription,
+                  category: a.category,
+                  platform: a.platform,
+                  icon: a.icon ? "yes" : "no",
+                  iconEmoji: a.iconEmoji,
+                  iconStyle: a.iconStyle ? "yes" : "no",
+                  screenshots: a.screenshots?.length || 0,
+                  features: a.features?.length || 0,
+                  github: a.github,
+                }))
+              );
+
+              const systemPrompt = `You are a senior app store editor reviewing submissions for World Vibe Web (wvw.dev), a distributed app store for open-source projects.
+
+            Allowed categories: ${ALLOWED_CATEGORIES.join(", ")}
+
+            Review each app and provide **specific, actionable** suggestions. For each app, give:
+            1. **Wording** — Rewrite the subtitle and description to be more compelling and App-Store-quality. Subtitles should be catchy taglines under 50 chars without trailing periods.
+            2. **Categories** — Suggest the most fitting categories from the allowed list. An app should have 2-3 categories.
+            3. **Icons** — If missing, suggest an emoji. If present, suggest iconStyle tweaks (e.g. borderRadius, bgColor, scale) based on the platform.
+            4. **Listing quality** — What one or two things would most improve this listing (screenshots, features list, longDescription, etc.)?
+
+            Be concise. Use bullet points. Do NOT repeat field names or schema docs the submitter already knows.
+            Format as markdown with an h4 (####) per app using the app name.`;
+
+              try {
+                const aiResponse = await copilotChat(copilotToken, [
+                  { role: "system", content: systemPrompt },
+                  { role: "user", content: `Review these app submissions:\n\n${JSON.stringify(appSummaries, null, 2)}` },
+                ]);
+                comment += aiResponse + "\n\n";
+              } catch (e) {
+                core.warning(`Copilot API call failed: ${e.message}`);
+                comment += `> ⚠️ AI suggestions unavailable (API error). Static checks above are still valid.\n\n`;
+              }
+            } else if (!copilotToken) {
+              core.info("COPILOT_GITHUB_TOKEN not set, skipping AI suggestions");
+            }
+
+            comment += "---\n";
+            comment += "<sub>🤖 Automated review by wvw.dev store review bot · ";
+            comment += "[Submission guide](https://github.com/f/wvw.dev/blob/master/DISTRIBUTE.md)</sub>\n";
+
+            // Find existing bot comment to update, or create new
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(c =>
+              c.user.type === "Bot" && c.body.includes("Store Submission Review")
+            );
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: comment,
+              });
+              core.info("Updated existing review comment");
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: comment,
+              });
+              core.info("Created new review comment");
+            }
