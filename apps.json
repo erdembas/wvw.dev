@@ -174,9 +174,7 @@
       "_developer": "Martin",
       "_store": "shametim",
       "_storeUrl": "",
-      "developer": "Martin",
-      "stars": 0,
-      "forks": 0
+      "developer": "Martin"
     },
     {
       "id": "agentlytics",
@@ -200,8 +198,8 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 327,
-      "forks": 34,
+      "stars": 325,
+      "forks": 33,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
       "features": [
@@ -290,9 +288,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 1,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "booking-calendar",
@@ -407,9 +403,7 @@
       "_developer": "Levent Bali",
       "_store": "Levent Bali",
       "_storeUrl": "",
-      "developer": "Levent Bali",
-      "stars": 0,
-      "forks": 0
+      "developer": "Levent Bali"
     },
     {
       "id": "damga",
@@ -522,9 +516,7 @@
       "_developer": "Tolsion",
       "_store": "Dev Cleaner",
       "_storeUrl": "",
-      "developer": "Tolsion",
-      "stars": 2,
-      "forks": 0
+      "developer": "Tolsion"
     },
     {
       "id": "dodoclip",
@@ -548,8 +540,8 @@
       "github": "https://github.com/DodoApps/dodoclip",
       "homepage": null,
       "language": "Swift",
-      "stars": 79,
-      "forks": 4,
+      "stars": 47,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -589,8 +581,8 @@
       "github": "https://github.com/DodoApps/dodocount",
       "homepage": null,
       "language": "Swift",
-      "stars": 14,
-      "forks": 2,
+      "stars": 0,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -628,7 +620,7 @@
       "github": "https://github.com/DodoApps/dodonest",
       "homepage": null,
       "language": "Swift",
-      "stars": 7,
+      "stars": 2,
       "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -669,7 +661,7 @@
       "github": "https://github.com/DodoApps/dodopass",
       "homepage": null,
       "language": "Swift",
-      "stars": 3,
+      "stars": 0,
       "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -708,8 +700,8 @@
       "github": "https://github.com/DodoApps/dodopulse",
       "homepage": null,
       "language": "Swift",
-      "stars": 127,
-      "forks": 13,
+      "stars": 101,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -749,7 +741,7 @@
       "github": "https://github.com/DodoApps/dodoservice",
       "homepage": null,
       "language": "Swift",
-      "stars": 7,
+      "stars": 0,
       "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -788,8 +780,8 @@
       "github": "https://github.com/DodoApps/dodoshot",
       "homepage": null,
       "language": "Swift",
-      "stars": 32,
-      "forks": 3,
+      "stars": 13,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -829,8 +821,8 @@
       "github": "https://github.com/DodoApps/dodotidy",
       "homepage": null,
       "language": "Swift",
-      "stars": 170,
-      "forks": 6,
+      "stars": 71,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -906,9 +898,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "flight-ticket",
@@ -936,9 +926,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "galaksinin-muhafizlari",
@@ -1092,9 +1080,7 @@
       "_developer": "scyto",
       "_store": "scyto",
       "_storeUrl": "",
-      "developer": "scyto",
-      "stars": 23,
-      "forks": 0
+      "developer": "scyto"
     },
     {
       "id": "hono-telescope",
@@ -1243,9 +1229,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "linkedin-hide-viewed-jobs",
@@ -1305,8 +1289,8 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 241,
-      "forks": 5,
+      "stars": 79,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -1405,9 +1389,7 @@
       "_developer": "Furkan Cakir",
       "_store": "Mergen ADE",
       "_storeUrl": "",
-      "developer": "Furkan Cakir",
-      "stars": 6,
-      "forks": 0
+      "developer": "Furkan Cakir"
     },
     {
       "id": "mermaid-viewer",
@@ -1476,9 +1458,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 0,
-      "forks": 0
+      "developer": "Philip Brocoum"
     },
     {
       "id": "my-net-worth",
@@ -1570,9 +1550,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "philnav",
@@ -1611,9 +1589,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 5,
-      "forks": 3
+      "developer": "Philip Brocoum"
     },
     {
       "id": "pixel-guess-game",
@@ -1727,9 +1703,7 @@
       "_developer": "Philip Brocoum",
       "_store": "Phil's Apps",
       "_storeUrl": "https://philipbrocoum.com",
-      "developer": "Philip Brocoum",
-      "stars": 1,
-      "forks": 0
+      "developer": "Philip Brocoum"
     },
     {
       "id": "product-planning-copilot",
@@ -1790,8 +1764,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152283,
-      "forks": 20013,
+      "stars": 152205,
+      "forks": 20002,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -1804,6 +1778,50 @@
       ],
       "screenshots": [
         "https://raw.githubusercontent.com/f/prompts.chat/main/public/og.png"
+      ],
+      "_source": "f/appetit",
+      "_owner": "f",
+      "_developer": "Fatih Kadir Akin",
+      "_store": "Appétit",
+      "_storeUrl": "https://apps.fka.dev",
+      "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "prompts-chat-book",
+      "name": "The Interactive Book of Prompting",
+      "subtitle": "An Interactive Guide to AI Prompts",
+      "description": "A comprehensive interactive guide to crafting clear and effective AI prompts — from foundations to advanced techniques like chain-of-thought, few-shot learning, and agentic systems.",
+      "longDescription": "Written by Fatih Kadir Akın, curator of the 151K+ star Awesome ChatGPT Prompts repository. This interactive book covers how AI models think and process prompts, crafting clear and specific prompts, advanced techniques including chain-of-thought, few-shot learning, and prompt chaining, plus real-world use cases for writing, coding, education, and business. Features 25 interactive chapters with examples you can try directly in the browser. Continuously updated as AI evolves.",
+      "icon": "https://raw.githubusercontent.com/f/prompts.chat/main/public/logo-dark.svg",
+      "iconStyle": {
+        "scale": 0.9,
+        "objectFit": "contain",
+        "bgColor": "#000000",
+        "padding": "18%"
+      },
+      "category": [
+        "productivity"
+      ],
+      "platform": "Web",
+      "price": "$20,00",
+      "github": "https://github.com/f/prompts.chat",
+      "homepage": "https://prompts.chat/book",
+      "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
+      "language": "TypeScript",
+      "stars": 151687,
+      "forks": 19928,
+      "requirements": "Any modern browser",
+      "features": [
+        "25 interactive chapters",
+        "Chain-of-thought and few-shot learning techniques",
+        "Prompt chaining and agentic systems",
+        "Try examples directly in the browser",
+        "Real-world use cases for writing, coding, education",
+        "Continuously updated with new techniques",
+        "Available as PDF download"
+      ],
+      "screenshots": [
+        "https://prompts.chat/_next/image?url=%2Fbook-cover-photo.jpg&w=3840&q=75&dpl=dpl_F29LRFNhru548nrCnC6hVC8tM36p"
       ],
       "_source": "f/appetit",
       "_owner": "f",
@@ -1859,9 +1877,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 0,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-captioneer",
@@ -1901,9 +1917,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 1,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-wiro-cli",
@@ -1941,9 +1955,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 1,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "radioheavy-wiro-models-cleaner",
@@ -1979,9 +1991,7 @@
       "_owner": "radioheavy",
       "_developer": "radioheavy",
       "_store": "radioheavy Apps",
-      "_storeUrl": "",
-      "stars": 0,
-      "forks": 0
+      "_storeUrl": ""
     },
     {
       "id": "reddit-rss-api",
@@ -2042,9 +2052,7 @@
       "_developer": "Kagan Temizkan",
       "_store": "Kagan Temizkan",
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
-      "developer": "Kagan Temizkan",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kagan Temizkan"
     },
     {
       "id": "shelf",
@@ -2128,9 +2136,7 @@
       "_developer": "Kazuki Shibutani",
       "_store": "Shibutani Software Lab",
       "_storeUrl": "",
-      "developer": "Kazuki Shibutani",
-      "stars": 0,
-      "forks": 0
+      "developer": "Kazuki Shibutani"
     },
     {
       "id": "tater-talk",
