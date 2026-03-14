@@ -304,6 +304,90 @@
       ]
     },
     {
+      "id": "asc-cli",
+      "name": "asc",
+      "subtitle": "App Store Connect from your terminal & AI agents",
+      "description": "A Swift CLI for managing iOS and macOS apps on App Store Connect — builds, releases, TestFlight, subscriptions, screenshots, and more. Full AI-agent support via CAEOAS affordances.",
+      "longDescription": "asc is a command-line tool that brings the full power of App Store Connect to your terminal. Automate builds, releases, TestFlight distribution, subscriptions, in-app purchases, screenshots, app previews, code signing, and customer reviews — all from a single CLI. Every command outputs structured JSON with CAEOAS affordances, so AI agents can navigate the entire release workflow without knowing the command tree. Works in CI pipelines (GitHub Actions) and supports multi-account authentication.",
+      "icon": "https://raw.githubusercontent.com/tddworks/asc-cli/main/homepage/static/icon-512.png",
+      "iconStyle": {
+        "scale": 1.3,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
+      "category": [
+        "cli",
+        "developer-tools"
+      ],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/tddworks/asc-cli",
+      "homepage": "https://asccli.app",
+      "language": "Swift",
+      "brew": "brew install tddworks/tap/asccli",
+      "requirements": "macOS 15 Sequoia or later",
+      "features": [
+        "List apps, create versions, link builds, submit for App Store review",
+        "Archive Xcode projects, export IPA/PKG, upload to App Store Connect",
+        "Manage TestFlight beta groups, testers, and beta review submissions",
+        "In-app purchases, subscriptions, offers, and offer codes",
+        "AI-powered App Store screenshot generation via Gemini",
+        "Code signing: bundle IDs, certificates, devices, profiles",
+        "Multi-account authentication with named accounts",
+        "Executable plugin system for custom event handlers",
+        "CAEOAS affordances — AI agents navigate without knowing the command tree",
+        "Sales, subscription, and financial reports"
+      ],
+      "_source": "tddworks/asc-cli",
+      "_owner": "tddworks",
+      "_developer": "tddworks",
+      "_store": "TDD Works",
+      "_storeUrl": "",
+      "developer": "tddworks",
+      "stars": 62,
+      "forks": 7,
+      "_comments": [
+        {
+          "user": "gingerbeardman",
+          "avatar": "https://avatars.githubusercontent.com/u/49612?v=4",
+          "title": "readme outdated",
+          "body": "readme says `asc auth list`\n\nbut\n```\n% asc auth list\nUnknown subcommand: list\n```",
+          "url": "https://github.com/tddworks/asc-cli/issues/3",
+          "created_at": "2026-03-13T14:27:34Z",
+          "reactions": {
+            "total": 0,
+            "thumbsUp": 0,
+            "thumbsDown": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          }
+        },
+        {
+          "user": "gingerbeardman",
+          "avatar": "https://avatars.githubusercontent.com/u/49612?v=4",
+          "title": "Discussion: how to prevent repeat Keychain access requests?",
+          "body": "Is there any way I can prevent repeat Keychain access requests?\n\nI'm cool with the access, I just want to set it and forget it.\n\n<img width=\"546\" height=\"291\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/3a75c441-fa84-4062-80f9-89c9153d068b\" />\n\n```\n% asc auth status  \nCredential stor",
+          "url": "https://github.com/tddworks/asc-cli/issues/2",
+          "created_at": "2026-03-13T14:22:25Z",
+          "reactions": {
+            "total": 0,
+            "thumbsUp": 0,
+            "thumbsDown": 0,
+            "laugh": 0,
+            "hooray": 0,
+            "confused": 0,
+            "heart": 0,
+            "rocket": 0,
+            "eyes": 0
+          }
+        }
+      ]
+    },
+    {
       "id": "bilokma",
       "name": "Bi'lokma",
       "subtitle": "Prevent food waste.",
@@ -2754,7 +2838,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152299,
+      "stars": 152300,
       "forks": 20017,
       "requirements": "Any modern browser",
       "features": [
@@ -2838,7 +2922,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 152299,
+      "stars": 152300,
       "forks": 20017,
       "requirements": "Any modern browser",
       "features": [
