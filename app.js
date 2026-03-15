@@ -345,8 +345,12 @@
 
   function renderFeaturedBanner(f) {
     const app = data.apps.find((a) => a.id === f.id);
+    const showcasePick = showcaseData ? (showcaseData.picks || []).find((p) => p.id === f.id && p.showcase_image) : null;
+    const bgStyle = showcasePick
+      ? `style="background-image:url('${showcasePick.showcase_image}');background-size:cover;background-position:center"`
+      : "";
     return `
-      <div class="featured-banner" data-app="${f.id}">
+      <div class="featured-banner" data-app="${f.id}" ${bgStyle}>
         <div class="featured-content">
           <div class="featured-label">${f.headline}</div>
           <div class="featured-title">${f.title}</div>
@@ -386,6 +390,25 @@
       if (!usedIds.has(a.id)) { picked.push(a); usedIds.add(a.id); }
     });
     return picked.slice(0, count);
+  }
+
+  function showcaseCard(pick) {
+    const app = data.apps.find((a) => a.id === pick.id);
+    if (!app) return "";
+    const bgImg = pick.showcase_image || pick.screenshot;
+    const bg = bgImg
+      ? `background-image:url('${bgImg}');background-size:cover;background-position:center`
+      : `background:linear-gradient(135deg, ${getCardGradients()[0].join(", ")})`;
+    return `
+      <div class="showcase-card" data-app="${pick.id}" style="${bg}">
+        <div class="showcase-overlay">
+          <div class="showcase-card-icon">${app.icon ? `<img src="${app.icon}" style="width:40px;height:40px;border-radius:10px;${iconStyle(app)}" onerror="this.outerHTML='${app.iconEmoji || "📦"}'">` : (app.iconEmoji || "📦")}</div>
+          <div class="showcase-card-info">
+            <div class="showcase-card-name">${app.name}</div>
+            <div class="showcase-card-sub">${app.subtitle}</div>
+          </div>
+        </div>
+      </div>`;
   }
 
   // Discover Page
@@ -444,12 +467,17 @@
       ${activeCats.map((cat) => {
         const catApps = apps.filter((a) => a.category && a.category.includes(cat.id));
         const showAll = catApps.length > 6;
+        const picks = showcaseData ? (showcaseData.picks || []).filter((p) => p.category === cat.id) : [];
         return `
       <div class="section">
         <div class="section-header">
           <h2>${cat.name}</h2>
           ${showAll ? `<span class="see-all" data-view="${cat.id}">See All</span>` : ""}
         </div>
+        ${picks.length > 0 ? `
+        <div class="showcase-picks">
+          ${picks.map((p) => showcaseCard(p)).join("")}
+        </div>` : ""}
         <div class="app-list">
           ${catApps.slice(0, 6).map((a) => appRow(a)).join("")}
         </div>
@@ -475,8 +503,14 @@
         </div>`;
     }
 
+    const picks = showcaseData ? (showcaseData.picks || []).filter((p) => p.category === categoryId) : [];
+
     return `
       <div class="page-header"><h1>${cat ? cat.name : "Category"}</h1></div>
+      ${picks.length > 0 ? `
+      <div class="showcase-picks" style="margin-bottom:20px">
+        ${picks.map((p) => showcaseCard(p)).join("")}
+      </div>` : ""}
       <div class="app-list">
         ${apps.map((a) => appRow(a)).join("")}
       </div>`;
@@ -1272,14 +1306,16 @@
   }
 
   let storesData = [];
+  let showcaseData = null;
 
   // Init
   async function init() {
     try {
       const cacheBust = Math.floor(Date.now() / 300000);
-      const [appsResp, storesResp] = await Promise.all([
+      const [appsResp, storesResp, showcaseResp] = await Promise.all([
         fetch("/apps.json?v=" + cacheBust),
         fetch("/stores.json?v=" + cacheBust).catch(() => null),
+        fetch("/showcase.json?v=" + cacheBust).catch(() => null),
       ]);
       data = await appsResp.json();
       if (storesResp && storesResp.ok) {
@@ -1308,6 +1344,9 @@
         });
         storesData = Object.values(storeMap)
           .sort((a, b) => b.appCount - a.appCount || b.totalStars - a.totalStars);
+      }
+      if (showcaseResp && showcaseResp.ok) {
+        showcaseData = await showcaseResp.json();
       }
     } catch {
       $("#contentScroll").innerHTML = `
