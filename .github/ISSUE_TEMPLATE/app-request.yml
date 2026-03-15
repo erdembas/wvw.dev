@@ -1,85 +1,55 @@
 name: "Request an App"
-description: "Suggest an app to be listed on World Vibe Web"
+description: "Wish an app existed? Describe it and maybe someone will vibecode it."
 title: "[request]: "
 labels: ["app-request"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting an app for WVW! Fill in the details below and we'll look into adding it.
+        Got an idea for an app that should exist? Describe what you need and the community might build it.
 
   - type: input
-    id: app-name
+    id: app-idea
     attributes:
-      label: App Name
-      placeholder: "e.g. My Cool Tool"
-    validations:
-      required: true
-
-  - type: input
-    id: github-url
-    attributes:
-      label: GitHub Repository URL
-      placeholder: "https://github.com/user/repo"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: platform
-    attributes:
-      label: Platform
-      options:
-        - macOS
-        - Web
-        - CLI
-        - Node.js
-        - Python
-        - Other
-    validations:
-      required: true
-
-  - type: dropdown
-    id: category
-    attributes:
-      label: Primary Category
-      options:
-        - macOS Apps
-        - Web Apps
-        - CLI Apps
-        - Developer Tools
-        - Productivity
-        - Utilities
-        - Education
-        - Entertainment
-        - Games
-        - Music
-        - Photo & Video
-        - Graphics & Design
-        - Social Networking
-        - Finance
-        - Health & Fitness
-        - Lifestyle
-        - News
-        - Business
-        - Other
+      label: What app do you wish existed?
+      placeholder: "e.g. A menu bar app that shows my GitHub notifications"
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Why should this app be on WVW?
-      placeholder: "What does the app do? Why is it interesting?"
+      label: Describe what it should do
+      placeholder: "What problem does it solve? What would it look like? What platform should it run on?"
     validations:
       required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: What platform?
+      options:
+        - macOS
+        - Web
+        - CLI
+        - Mobile
+        - Cross-platform
+        - Don't mind
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Any references or inspiration?
+      placeholder: "Links to similar tools, screenshots, mockups, or apps on other platforms that do something close"
 
   - type: checkboxes
     id: checks
     attributes:
-      label: Checklist
+      label: Expectations
       options:
-        - label: The app is open source
+        - label: I understand this is a community wish — there's no guarantee someone will build it
           required: true
-        - label: The app has a public GitHub repository
+        - label: I'd be happy if the resulting app is open source and vibe-coded
           required: true
-        - label: I am not the developer of this app (or I am, and want help listing it)
