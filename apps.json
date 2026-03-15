@@ -200,7 +200,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 331,
+      "stars": 334,
       "forks": 34,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -346,7 +346,7 @@
       "github": "https://github.com/f/appetit",
       "homepage": "https://apps.fka.dev",
       "language": "JavaScript",
-      "stars": 27,
+      "stars": 28,
       "forks": 4,
       "requirements": "Any modern browser",
       "features": [
@@ -428,7 +428,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 63,
+      "stars": 64,
       "forks": 7
     },
     {
@@ -459,7 +459,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 403,
+      "stars": 406,
       "forks": 71
     },
     {
@@ -555,7 +555,7 @@
       "github": "https://github.com/f/check-ai",
       "homepage": null,
       "language": "JavaScript",
-      "stars": 55,
+      "stars": 56,
       "forks": 4,
       "installCommand": "npx check-ai",
       "requirements": "Node.js 18+",
@@ -708,7 +708,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 403,
+      "stars": 406,
       "forks": 71
     },
     {
@@ -1985,7 +1985,7 @@
       "_store": "Yusuf's Apps",
       "_storeUrl": "",
       "developer": "Yusuf Altunbicak",
-      "stars": 4,
+      "stars": 5,
       "forks": 0
     },
     {
@@ -2070,9 +2070,9 @@
     {
       "id": "pixel-guess-mobile",
       "name": "Pixel Guess Mobile",
-      "subtitle": "Pixel guessing game for iOS & Android",
+      "subtitle": "Pixel guessing game for iOS",
       "description": "The mobile version of Pixel Guess — guess pixelated characters on your phone with smooth animations and native performance.",
-      "longDescription": "Pixel Guess Mobile brings the pixel guessing experience to iOS and Android. Built with Expo and React Native, it features smooth Skia-powered animations, multiple game categories, Easy and Hard difficulty modes, streak tracking, global leaderboards, and confetti celebrations on correct guesses. Search characters with smart autocomplete and compete with players worldwide.",
+      "longDescription": "Pixel Guess Mobile brings the pixel guessing experience to iOS. Built with Expo and React Native, it features smooth Skia-powered animations, multiple game categories, Easy and Hard difficulty modes, streak tracking, global leaderboards, and confetti celebrations on correct guesses. Search characters with smart autocomplete and compete with players worldwide.",
       "icon": "https://raw.githubusercontent.com/Jubstaaa/pixelate-game-mobile/main/assets/icon.png",
       "iconStyle": {
         "borderRadius": "22%"
@@ -2255,8 +2255,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152543,
-      "forks": 20055,
+      "stars": 152582,
+      "forks": 20057,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -2299,8 +2299,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 152543,
-      "forks": 20055,
+      "stars": 152582,
+      "forks": 20057,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -2740,7 +2740,7 @@
       "_store": "RadKod Apps",
       "_storeUrl": "",
       "developer": "Abdullah Bozdag",
-      "stars": 3,
+      "stars": 4,
       "forks": 0
     },
     {
