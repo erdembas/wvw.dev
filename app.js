@@ -108,6 +108,9 @@
   }
 
   function renderIcon(app) {
+    if (app._generatedIcon) {
+      return `<img src="${app._generatedIcon}" alt="${app.name}" style="object-fit:cover;border-radius:22%" onerror="this.parentElement.innerHTML='${app.iconEmoji || "📦"}'">`;
+    }
     if (app.icon) {
       const imgSt = iconStyle(app);
       const st = imgSt ? ` style="${imgSt}"` : "";
