@@ -50,8 +50,6 @@ echo "Removed $removed superseded fallback icons."
 echo ""
 echo "=== Generating icons for apps without icons ==="
 
-apps_needing_icons=$(jq -c '.apps[] | select(.icon == null or .icon == "")' "$APPS_FILE")
-
 icon_count=0
 while IFS= read -r app; do
   [ -z "$app" ] && continue
@@ -89,14 +87,21 @@ while IFS= read -r app; do
   img_url=$(echo "$response" | jq -r '.images[0].url // empty' 2>/dev/null) || img_url=""
 
   if [ -n "$img_url" ]; then
-    curl -sL "$img_url" -o "${icon_file}.tmp" && \
-    magick "${icon_file}.tmp" -resize 512x512^ -gravity center -extent 512x512 -quality 85 "$icon_file" 2>/dev/null && \
-    rm -f "${icon_file}.tmp" && \
-    echo "OK" && icon_count=$((icon_count + 1))
+    if curl -sL "$img_url" -o "${icon_file}.tmp"; then
+      if magick "${icon_file}.tmp" -resize 512x512^ -gravity center -extent 512x512 -quality 85 "$icon_file" 2>/dev/null; then
+        echo "OK"
+        icon_count=$((icon_count + 1))
+      else
+        echo "CONVERT FAILED"
+      fi
+    else
+      echo "DOWNLOAD FAILED"
+    fi
+    rm -f "${icon_file}.tmp"
   else
-    echo "FAILED"
+    echo "API FAILED"
   fi
-done <<< "$apps_needing_icons"
+done < <(jq -c '.apps[] | select(.icon == null or .icon == "")' "$APPS_FILE")
 
 echo "Generated $icon_count new icons."
 
