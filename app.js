@@ -371,26 +371,41 @@
   }
 
   function pickMustTry(apps, count) {
-    const withScreenshots = apps.filter((a) => a.screenshots && a.screenshots.length > 0);
-    const without = apps.filter((a) => !a.screenshots || a.screenshots.length === 0);
-    const stores = [...new Set(withScreenshots.map((a) => a._source))];
+    const featuredIds = new Set((Array.isArray(data.featured) ? data.featured : []).map((f) => f.id));
+    const showcaseIds = new Set(showcaseData ? (showcaseData.picks || []).filter((p) => p.showcase_image).map((p) => p.id) : []);
+
+    const scored = apps.map((a) => {
+      let score = 0;
+      if (showcaseIds.has(a.id)) score += 50;
+      if (a.screenshots && a.screenshots.length > 0) score += 30;
+      if (a.icon) score += 10;
+      if (a.features && a.features.length > 0) score += 5;
+      if (a.longDescription) score += 5;
+      score += Math.min(Math.log10((a.stars || 0) + 1) * 10, 40);
+      if (featuredIds.has(a.id)) score -= 20;
+      return { app: a, score };
+    }).sort((a, b) => b.score - a.score);
+
     const picked = [];
-    const usedIds = new Set();
-    stores.forEach((store) => {
-      const fromStore = withScreenshots.filter((a) => a._source === store && !usedIds.has(a.id));
-      if (fromStore.length > 0) {
-        picked.push(fromStore[0]);
-        usedIds.add(fromStore[0].id);
+    const usedStores = new Set();
+    const usedCategories = new Set();
+
+    for (const { app } of scored) {
+      if (picked.length >= count) break;
+      const dominated = usedStores.has(app._source) && app.category.every((c) => usedCategories.has(c));
+      if (dominated && picked.length >= 2) continue;
+      picked.push(app);
+      usedStores.add(app._source);
+      (app.category || []).forEach((c) => usedCategories.add(c));
+    }
+
+    if (picked.length < count) {
+      for (const { app } of scored) {
+        if (picked.length >= count) break;
+        if (!picked.includes(app)) picked.push(app);
       }
-    });
-    withScreenshots.forEach((a) => {
-      if (picked.length >= count) return;
-      if (!usedIds.has(a.id)) { picked.push(a); usedIds.add(a.id); }
-    });
-    without.forEach((a) => {
-      if (picked.length >= count) return;
-      if (!usedIds.has(a.id)) { picked.push(a); usedIds.add(a.id); }
-    });
+    }
+
     return picked.slice(0, count);
   }
 
