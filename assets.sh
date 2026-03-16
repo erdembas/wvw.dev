@@ -50,7 +50,7 @@ echo "Removed $removed superseded fallback icons."
 echo ""
 echo "=== Generating icons for apps without icons ==="
 
-apps_needing_icons=$(jq -c '.apps[] | select(.icon == null and (.iconEmoji == null or .iconEmoji == "📦"))' "$APPS_FILE")
+apps_needing_icons=$(jq -c '.apps[] | select(.icon == null or .icon == "")' "$APPS_FILE")
 
 icon_count=0
 while IFS= read -r app; do
@@ -75,7 +75,7 @@ while IFS= read -r app; do
 
   echo -n "  $app_name — generating... "
 
-  prompt="A square app icon for \"${app_name}\". ${app_subtitle}. Category: ${app_category}, platform: ${app_platform}. Clean, modern design with a simple symbolic graphic on a gradient background. Rounded corners style like macOS/iOS icons. No text, no letters, no words. Single centered symbol or object. Vibrant colors, professional quality."
+  prompt="A square app icon that fills the entire canvas edge-to-edge with ZERO padding, ZERO margin, ZERO border, NO empty space around the edges. The icon for \"${app_name}\" — ${app_subtitle}. Category: ${app_category}. A bold symbolic graphic on a solid or gradient color background that extends to every pixel of the image boundary. Style: iOS/macOS app icon, vibrant colors, simple centered symbol. No text, no letters, no words. The background color must touch all four edges completely."
 
   response=$(curl -s --max-time 60 -X POST "https://fal.run/fal-ai/nano-banana-2" \
     -H "Authorization: Key ${FAL_AI_KEY}" \
@@ -111,12 +111,14 @@ for icon_file in "$ICONS_DIR"/*.jpg; do
   icon_url="${OUR_ICON_PREFIX}${app_id}.jpg"
 
   current_icon=$(jq -r --arg id "$app_id" '.apps[] | select(.id == $id) | .icon // empty' "$APPS_FILE" | head -1)
-  if [ -z "$current_icon" ]; then
+  if [ -z "$current_icon" ] || [ "$current_icon" = "$icon_url" ]; then
     jq --arg id "$app_id" --arg url "$icon_url" '
       .apps = [.apps[] | if .id == $id then .icon = $url | .iconStyle = {"scale": 1, "objectFit": "cover", "borderRadius": "22%"} else . end]
     ' "$APPS_FILE" > "${APPS_FILE}.tmp" && mv "${APPS_FILE}.tmp" "$APPS_FILE"
-    echo "  $app_id — icon URL set"
-    updated=$((updated + 1))
+    if [ -z "$current_icon" ]; then
+      echo "  $app_id — icon URL set"
+      updated=$((updated + 1))
+    fi
   fi
 done
 
