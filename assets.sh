@@ -37,7 +37,6 @@ fi
 REPO_BASE="https://raw.githubusercontent.com/f/wvw.dev/master"
 OUR_ICON_PREFIX="${REPO_BASE}/${ICONS_DIR}/"
 
-# Owner cleanup happens after needs_icon is defined (below)
 removed=0
 
 # --- Check icon quality and generate replacements ---
