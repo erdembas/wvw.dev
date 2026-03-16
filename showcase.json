@@ -12,7 +12,7 @@
       "category": "cli",
       "platform": "Node.js",
       "stars": 1385,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f10/26y4y48yWGlQQZxXrBOP7_Am6MXLuJ.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/git-rewrite-commits.jpg"
     },
     {
       "id": "macabolic",
@@ -29,7 +29,7 @@
       "category": "entertainment",
       "platform": "macOS",
       "stars": 243,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f32/SGppgrHKZSixeven12XWg_vMFHNmrb.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/macabolic.jpg"
     }
   ],
   "picks": [
@@ -56,7 +56,7 @@
       "category": "macos",
       "platform": "Python",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f09/iBQgYymI8v7RMRPaL0Ne0_uyJXfq9W.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/whisperwrap.jpg"
     },
     {
       "id": "gpvblazor",
@@ -69,7 +69,7 @@
       "category": "web",
       "platform": "Web",
       "stars": 2,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f0c/2gQNA-iu2HTjmiymY7Nhu_WHBL7xKV.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/gpvblazor.jpg"
     },
     {
       "id": "radioheavy-avalon",
@@ -86,7 +86,7 @@
       "category": "web",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f0e/bWdwzHXc4DkPXgBwbTqjX_ZnqvxWcR.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-avalon.jpg"
     },
     {
       "id": "git-rewrite-commits",
@@ -99,7 +99,7 @@
       "category": "cli",
       "platform": "Node.js",
       "stars": 1385,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f10/26y4y48yWGlQQZxXrBOP7_Am6MXLuJ.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/git-rewrite-commits.jpg"
     },
     {
       "id": "asc-cli",
@@ -116,7 +116,7 @@
       "category": "cli",
       "platform": "macOS",
       "stars": 64,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f13/aj5qDN0l08N53gEF9DdUt_ToFwFV6A.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/asc-cli.jpg"
     },
     {
       "id": "dev-cleaner",
@@ -133,7 +133,7 @@
       "category": "developer-tools",
       "platform": "macOS",
       "stars": 2,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f16/cnNI3tTeWZp3jFjiTyex7_keb4SIBN.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dev-cleaner.jpg"
     },
     {
       "id": "guidgenerator-vscode",
@@ -146,7 +146,7 @@
       "category": "developer-tools",
       "platform": "VS Code",
       "stars": 3,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f1c/2O_sPOATtOtFptab7fNDw_iJhNYsoQ.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/guidgenerator-vscode.jpg"
     },
     {
       "id": "github-repo-cleaner-ai",
@@ -162,7 +162,7 @@
       "category": "productivity",
       "platform": "Desktop",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f20/z4mf0v9-KfZyjXkkXE0bp_Oo3kebma.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/github-repo-cleaner-ai.jpg"
     },
     {
       "id": "product-planning-copilot",
@@ -175,7 +175,7 @@
       "category": "productivity",
       "platform": "Web",
       "stars": 1,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f22/lPWA2LJlWLY7Oz9ZsW3OQ_zzkJOymG.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/product-planning-copilot.jpg"
     },
     {
       "id": "philnav",
@@ -191,7 +191,7 @@
       "category": "utilities",
       "platform": "Raspberry Pi + Desktop",
       "stars": 5,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f24/ku3x6RtZvgB9IFeVbEMLy_EL3hTskp.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/philnav.jpg"
     },
     {
       "id": "unified-audio-control",
@@ -204,7 +204,7 @@
       "category": "utilities",
       "platform": "Python",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f28/Ad-gcAwFVZ4F0c7lHQnlR_ly2h9Hs0.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/unified-audio-control.jpg"
     },
     {
       "id": "koumath",
@@ -217,7 +217,7 @@
       "category": "education",
       "platform": "React Native",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f29/NrAbrEtqM4oLnQchLJgGh_TdLlIVp2.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/koumath.jpg"
     },
     {
       "id": "sql-prep",
@@ -230,7 +230,7 @@
       "category": "education",
       "platform": "iOS",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f2c/ALJf9addIdvd88s3zoN1l_Ye8EhN2h.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/sql-prep.jpg"
     },
     {
       "id": "random-quotes",
@@ -246,7 +246,7 @@
       "category": "entertainment",
       "platform": "iOS & Android",
       "stars": 1,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f2f/4SCO_4au8cMYgPFKM-Mao_yK2rCKfC.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/random-quotes.jpg"
     },
     {
       "id": "macabolic",
@@ -263,7 +263,7 @@
       "category": "entertainment",
       "platform": "macOS",
       "stars": 243,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f32/SGppgrHKZSixeven12XWg_vMFHNmrb.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/macabolic.jpg"
     },
     {
       "id": "pixel-guess-game",
@@ -278,7 +278,7 @@
       "category": "games",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f34/BOPb2NYO-eRYGrTosqtxn_8yf4gGPd.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/pixel-guess-game.jpg"
     },
     {
       "id": "galaksinin-muhafizlari",
@@ -291,7 +291,7 @@
       "category": "games",
       "platform": "Web",
       "stars": 4,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f38/wTHCLYBjGZBlHBWmxVbvw_aMmM0gJ8.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/galaksinin-muhafizlari.jpg"
     },
     {
       "id": "ha-bluetooth-audio-manager",
@@ -304,7 +304,7 @@
       "category": "music",
       "platform": "Docker",
       "stars": 24,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f3d/58Pp8KPFgvRYiXbIohIOo_bREHtT0s.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ha-bluetooth-audio-manager.jpg"
     },
     {
       "id": "soundshift",
@@ -317,7 +317,7 @@
       "category": "music",
       "platform": "Web",
       "stars": 5,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f3e/8GFOnuIXgi0LgTpEf-PFN_enNCecNY.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/soundshift.jpg"
     },
     {
       "id": "radioheavy-captioneer",
@@ -334,7 +334,7 @@
       "category": "photo-video",
       "platform": "macOS",
       "stars": 1,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f41/lKgJJs-z8nLaIIJKkzgsn_Nz6VK10n.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-captioneer.jpg"
     },
     {
       "id": "ai2image",
@@ -347,7 +347,7 @@
       "category": "graphics-design",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f43/7LYYneMtyVZ5A8hacN-Sl_tC42qWR3.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ai2image.jpg"
     },
     {
       "id": "radioheavy-avalon",
@@ -364,7 +364,7 @@
       "category": "graphics-design",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f46/64Wa15VHk7bR6fSWcX99v_EQeqgtze.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-avalon.jpg"
     },
     {
       "id": "my-net-worth",
@@ -377,7 +377,7 @@
       "category": "finance",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f47/AN4xe7S_L4wisXiw3aNJg_foZ3ufr0.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/my-net-worth.jpg"
     },
     {
       "id": "poker-tracker",
@@ -405,7 +405,7 @@
       "category": "health-fitness",
       "platform": "iOS & Android",
       "stars": 3,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f51/IR43GW_VN4NUo2JY-C6wr_X1I1PcWf.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/whistle-sos.jpg"
     },
     {
       "id": "en-yakin-eczane-bot",
@@ -418,7 +418,7 @@
       "category": "health-fitness",
       "platform": "Telegram",
       "stars": 4,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f53/UhodghVHRszjDfo1OH-Y4_PYcMHHQh.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/en-yakin-eczane-bot.jpg"
     },
     {
       "id": "my-plants",
@@ -431,7 +431,7 @@
       "category": "lifestyle",
       "platform": "React Native",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f59/wyK9e34OJ3fvhIwYHkjeB_oEjx05cm.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/my-plants.jpg"
     },
     {
       "id": "yadet",
@@ -444,7 +444,7 @@
       "category": "lifestyle",
       "platform": "iOS & Android",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f5b/XioVAdkR_Konp_7JhTWUW_G32E2WRS.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/yadet.jpg"
     },
     {
       "id": "reviseflow",
@@ -457,7 +457,7 @@
       "category": "business",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f5d/-aWF_swRL-ulebMuyoMQj_PYdaTovC.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/reviseflow.jpg"
     },
     {
       "id": "dodocount",
@@ -474,7 +474,7 @@
       "category": "business",
       "platform": "macOS",
       "stars": 14,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f5f/iDShdvXdhpsy-u8ab6x19_F4XtWg93.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dodocount.jpg"
     },
     {
       "id": "flight-ticket",
@@ -487,7 +487,7 @@
       "category": "travel",
       "platform": "React Native",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f62/mBpfO_GV2pBwu0P9Z9t6N_Gd9QrlqK.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/flight-ticket.jpg"
     },
     {
       "id": "bilokma",
@@ -500,7 +500,7 @@
       "category": "food-drink",
       "platform": "React Native",
       "stars": 1,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f63/3RrtXHBiFQxJu8UEZ1dn5_XohapvaO.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/bilokma.jpg"
     },
     {
       "id": "rn-maps",
@@ -513,7 +513,7 @@
       "category": "navigation",
       "platform": "React Native",
       "stars": 0,
-      "showcase_image": "https://v3b.fal.media/files/b/0a925f67/Ssuu_XauP7vKDcjQUd0T3_28uqtj0K.png"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/rn-maps.jpg"
     }
   ]
 }
