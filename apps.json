@@ -471,8 +471,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1300,
-      "forks": 199,
+      "stars": 1326,
+      "forks": 203,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1057,8 +1057,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1300,
-      "forks": 199,
+      "stars": 1326,
+      "forks": 203,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -11173,11 +11173,12 @@
       "description": "Real-time network port monitoring with smart categorization, process management, bilingual UI (TR/EN), and dark mode support.",
       "longDescription": "Portier is a lightweight macOS menu bar app that monitors active network ports and processes in real-time. It categorizes processes into Development, Applications, Browsers, Infrastructure, and System groups. You can kill processes directly, open web-accessible ports in your browser, and filter by port number, process name, or category. Supports Turkish and English with dark mode.",
       "category": [
+        "macos",
         "developer-tools",
         "utilities"
       ],
-      "platform": "macos",
-      "price": "free",
+      "platform": "macOS",
+      "price": "Free",
       "github": "https://github.com/mesto-ai/portier",
       "homepage": "https://github.com/mesto-ai/portier",
       "language": "Swift",
@@ -11343,8 +11344,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 153343,
-      "forks": 20180,
+      "stars": 153354,
+      "forks": 20183,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -11387,8 +11388,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 153343,
-      "forks": 20180,
+      "stars": 153354,
+      "forks": 20183,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
