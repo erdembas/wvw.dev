@@ -209,7 +209,7 @@
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
       "stars": 347,
-      "forks": 36,
+      "forks": 37,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
       "features": [
@@ -440,7 +440,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 88,
+      "stars": 89,
       "forks": 12
     },
     {
@@ -471,8 +471,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1690,
-      "forks": 241,
+      "stars": 1708,
+      "forks": 243,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -979,7 +979,7 @@
       "platform": "Web",
       "price": "Free",
       "github": "https://github.com/abutun/appetit",
-      "homepage": "https://cosmicmeta.ai/apps-games/swipe-slip/",
+      "homepage": "https://cosmicmeta.ai",
       "language": "JavaScript",
       "features": [
         "AI-generated tech articles and guides",
@@ -1057,8 +1057,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1690,
-      "forks": 241,
+      "stars": 1708,
+      "forks": 243,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -1515,7 +1515,7 @@
       "homepage": null,
       "language": "Swift",
       "stars": 35,
-      "forks": 4,
+      "forks": 5,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
       "features": [
@@ -9869,6 +9869,42 @@
       "forks": 0
     },
     {
+      "id": "galactic-striker",
+      "name": "Galactic Striker",
+      "subtitle": "AI-Generated Space Shooter",
+      "description": "A fully AI-generated Python space shooter with dynamic gameplay, extensive weapon systems, and 250 handcrafted levels.",
+      "longDescription": "Galactic Striker is an action-packed space shooter built with Python and Pygame, entirely generated with AI. Features 250 handcrafted levels with boss encounters every 25 levels, seven primary weapons plus missile systems and shields, multiple alien types with advanced AI pathfinding, power-ups, and three game modes (Campaign, Arcade, Practice). Built with sprite batching, quadtree collision detection, and dynamic audio mixing.",
+      "icon": null,
+      "iconEmoji": "🚀",
+      "category": [
+        "games",
+        "entertainment"
+      ],
+      "platform": "Desktop (Python)",
+      "price": "Free",
+      "github": "https://github.com/abutun/Galactic-Striker",
+      "homepage": null,
+      "language": "Python",
+      "features": [
+        "250 handcrafted levels with boss encounters",
+        "7 primary weapons plus missiles and shields",
+        "Multiple alien types with advanced AI",
+        "Campaign, Arcade, and Practice game modes",
+        "Power-ups and experience-based ranking",
+        "Fully AI-generated codebase"
+      ],
+      "screenshots": [],
+      "_source": "abutun/appetit",
+      "_owner": "abutun",
+      "_developer": "Cosmic Meta Digital",
+      "_store": "Cosmic Meta Digital",
+      "_storeUrl": "https://cosmicmeta.ai",
+      "developer": "Cosmic Meta Digital",
+      "stars": 1,
+      "forks": 1,
+      "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/galactic-striker.jpg"
+    },
+    {
       "id": "galaksinin-muhafizlari",
       "developer": "Asaf Akin",
       "name": "Galaksinin Muhafızları",
@@ -9906,6 +9942,43 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/galaksinin-muhafizlari.jpg"
+    },
+    {
+      "id": "generic-nft-mint",
+      "name": "Generic NFT Mint",
+      "subtitle": "Configurable NFT Minting Interface",
+      "description": "A production-ready, configurable NFT minting interface supporting multiple ERC-721 collections with multi-wallet and multi-network support.",
+      "longDescription": "Generic NFT Mint is a fully configurable NFT minting platform built with Next.js and TypeScript. Deploy beautiful minting pages for any ERC-721 contract through a single configuration file. Supports MetaMask, WalletConnect, and multiple networks including Ethereum, Polygon, Arbitrum, and Optimism. Features glass morphism UI, contract diagnostics, static export, and subdirectory deployment.",
+      "icon": null,
+      "iconEmoji": "🎨",
+      "category": [
+        "web",
+        "developer-tools",
+        "finance"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/abutun/generic-nft-mint",
+      "homepage": null,
+      "language": "TypeScript",
+      "features": [
+        "Single config file controls everything",
+        "Multi-wallet support (MetaMask, WalletConnect)",
+        "Multi-network (Ethereum, Polygon, Arbitrum, Optimism)",
+        "Built-in contract diagnostics",
+        "Static export for any web server",
+        "Modern glass morphism UI"
+      ],
+      "screenshots": [],
+      "_source": "abutun/appetit",
+      "_owner": "abutun",
+      "_developer": "Cosmic Meta Digital",
+      "_store": "Cosmic Meta Digital",
+      "_storeUrl": "https://cosmicmeta.ai",
+      "developer": "Cosmic Meta Digital",
+      "stars": 2,
+      "forks": 1,
+      "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/generic-nft-mint.jpg"
     },
     {
       "id": "git-rewrite-commits",
@@ -10299,7 +10372,7 @@
       "github": "https://github.com/f/istanbul",
       "homepage": null,
       "language": "Swift",
-      "stars": 15,
+      "stars": 16,
       "forks": 4,
       "brew": "brew install f/tap/istanbul",
       "downloadUrl": "https://github.com/f/istanbul/releases/latest",
@@ -11344,7 +11417,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 153807,
+      "stars": 153846,
       "forks": 20233,
       "requirements": "Any modern browser",
       "features": [
@@ -11388,7 +11461,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 153807,
+      "stars": 153846,
       "forks": 20233,
       "requirements": "Any modern browser",
       "features": [
@@ -11967,7 +12040,7 @@
       "_store": "RadKod Apps",
       "_storeUrl": "",
       "developer": "Abdullah Bozdag",
-      "stars": 7,
+      "stars": 0,
       "forks": 0,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/soundshift.jpg"
     },
@@ -12060,7 +12133,7 @@
       "platform": "iOS & Android",
       "price": "Free",
       "github": "https://github.com/abutun/appetit",
-      "homepage": "https://cosmicmeta.ai",
+      "homepage": "https://cosmicmeta.ai/apps-games/swipe-slip/",
       "language": "Kotlin",
       "features": [
         "Endless tunnel running gameplay",
@@ -12237,7 +12310,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2160,
+      "stars": 2161,
       "forks": 147,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
@@ -12642,6 +12715,45 @@
       "developer": "Kagan Temizkan",
       "stars": 0,
       "forks": 0
+    },
+    {
+      "id": "worldmonitor",
+      "name": "World Monitor",
+      "subtitle": "AI-Powered Global Intelligence Dashboard",
+      "description": "A real-time global intelligence dashboard aggregating news, geopolitical events, and infrastructure monitoring across 170+ curated feeds.",
+      "longDescription": "World Monitor is an AI-powered situational awareness platform that aggregates 170+ curated feeds across 15 categories. Features include 45+ toggleable data layers (conflicts, military bases, ports, undersea cables, cyber threats), AI-synthesized briefings with local LLM support, dual map engines (3D globe and WebGL flat map), Country Instability Index scoring, 21-language localization, and 70+ live video streams. Available as a native desktop app via Tauri and as a PWA.",
+      "icon": null,
+      "iconEmoji": "🌍",
+      "category": [
+        "web",
+        "macos",
+        "news",
+        "productivity"
+      ],
+      "platform": "Web / macOS / Windows / Linux",
+      "price": "Free",
+      "github": "https://github.com/abutun/worldmonitor",
+      "homepage": "https://monitor.cosmicmeta.ai",
+      "language": "TypeScript",
+      "features": [
+        "170+ curated intelligence feeds across 15 categories",
+        "45+ toggleable data layers (conflicts, infrastructure, cyber threats)",
+        "AI-synthesized briefings with local LLM support",
+        "Dual map engines — 3D globe and WebGL flat map",
+        "Country Instability Index with live scoring",
+        "21-language localization with RTL support",
+        "Native desktop app via Tauri"
+      ],
+      "screenshots": [],
+      "_source": "abutun/appetit",
+      "_owner": "abutun",
+      "_developer": "Cosmic Meta Digital",
+      "_store": "Cosmic Meta Digital",
+      "_storeUrl": "https://cosmicmeta.ai",
+      "developer": "Cosmic Meta Digital",
+      "stars": 0,
+      "forks": 0,
+      "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/worldmonitor.jpg"
     },
     {
       "id": "wvw-desktop",
