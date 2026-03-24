@@ -440,8 +440,8 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 89,
-      "forks": 12
+      "stars": 90,
+      "forks": 13
     },
     {
       "id": "awesome-openclaw-agents",
@@ -471,8 +471,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1814,
-      "forks": 258,
+      "stars": 1817,
+      "forks": 259,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1011,8 +1011,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1814,
-      "forks": 258,
+      "stars": 1817,
+      "forks": 259,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -11181,7 +11181,7 @@
       "github": "https://github.com/f/poke-gate",
       "homepage": "https://poke.com",
       "language": "Swift / JavaScript",
-      "stars": 19,
+      "stars": 21,
       "forks": 1,
       "brew": "brew install f/tap/poke-gate",
       "installCommand": "npx poke-gate",
@@ -11455,7 +11455,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 154070,
+      "stars": 154075,
       "forks": 20250,
       "requirements": "Any modern browser",
       "features": [
@@ -11499,7 +11499,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 154070,
+      "stars": 154075,
       "forks": 20250,
       "requirements": "Any modern browser",
       "features": [
@@ -11907,6 +11907,50 @@
       "_storeUrl": "https://my-store-six-ruby.vercel.app/apps",
       "developer": "Kagan Temizkan",
       "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "sarisen-cloaknote",
+      "name": "CloakNote",
+      "developer": "Serafettin Sarisen",
+      "subtitle": "Encrypted notes with GitHub sync",
+      "description": "An encrypted macOS notes app that stores your notes in your own private GitHub repository.",
+      "longDescription": "CloakNote is an encrypted macOS notes app that syncs to your private GitHub repository. Notes are encrypted locally before upload, and your passphrase never leaves your Mac. CloakNote supports Turkish and English, auto-lock, themes, local draft protection, and background sync at configurable intervals. Your notes remain unreadable on GitHub without your passphrase.",
+      "icon": "https://raw.githubusercontent.com/sarisen/CloakNote/refs/heads/main/docs/logo.png",
+      "iconEmoji": "🔒",
+      "iconStyle": {
+        "scale": 1.15,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
+      "category": [
+        "macos",
+        "productivity"
+      ],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/sarisen/CloakNote",
+      "brew": "brew install sarisen/cloaknote/cloaknote",
+      "downloadUrl": "https://github.com/sarisen/CloakNote/releases/latest",
+      "language": "Swift",
+      "requirements": "macOS",
+      "features": [
+        "Encrypts notes locally before upload",
+        "Stores data in your own private GitHub repository",
+        "Passphrase never leaves your Mac",
+        "Background sync at configurable intervals",
+        "Local draft protection to reduce data loss",
+        "Auto-lock support",
+        "Turkish and English language support",
+        "Theme support",
+        "Homebrew installation support"
+      ],
+      "_source": "sarisen/CloakNote",
+      "_owner": "sarisen",
+      "_developer": "Serafettin Sarisen",
+      "_store": "Serafettin Sarisen",
+      "_storeUrl": "",
+      "stars": 1,
       "forks": 0
     },
     {
@@ -12348,7 +12392,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2173,
+      "stars": 2174,
       "forks": 147,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
