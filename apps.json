@@ -535,8 +535,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1930,
-      "forks": 276,
+      "stars": 1948,
+      "forks": 280,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1213,8 +1213,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1930,
-      "forks": 276,
+      "stars": 1948,
+      "forks": 280,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -11370,7 +11370,7 @@
       "homepage": "https://github.com/sametcn99/my-stars-atlas",
       "language": "TypeScript",
       "stars": 1,
-      "forks": 0,
+      "forks": 1,
       "developer": "sametcn99",
       "features": [
         "Fetch GitHub stars and publish them as a static searchable catalog",
@@ -11871,8 +11871,8 @@
       "github": "https://github.com/f/poke-tui",
       "homepage": "https://poke.com",
       "language": "JavaScript",
-      "stars": 7,
-      "forks": 0,
+      "stars": 8,
+      "forks": 1,
       "installCommand": "npx poke-tui",
       "requirements": "Node.js 18+",
       "features": [
@@ -12137,7 +12137,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 154234,
+      "stars": 154267,
       "forks": 20269,
       "requirements": "Any modern browser",
       "features": [
@@ -12181,7 +12181,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 154234,
+      "stars": 154267,
       "forks": 20269,
       "requirements": "Any modern browser",
       "features": [
@@ -13280,7 +13280,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2193,
+      "stars": 2197,
       "forks": 149,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
@@ -13746,7 +13746,7 @@
       "github": "https://github.com/f/wvw.dev-app",
       "homepage": "https://wvw.dev",
       "language": "Rust",
-      "stars": 5,
+      "stars": 6,
       "forks": 0,
       "brew": "brew install f/tap/wvw",
       "downloadUrl": "https://github.com/f/wvw.dev-app/releases/latest",
