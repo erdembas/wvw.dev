@@ -272,8 +272,8 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 356,
-      "forks": 37,
+      "stars": 357,
+      "forks": 38,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
       "features": [
@@ -535,8 +535,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1983,
-      "forks": 287,
+      "stars": 1991,
+      "forks": 289,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1213,8 +1213,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1983,
-      "forks": 287,
+      "stars": 1991,
+      "forks": 289,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -10332,7 +10332,7 @@
       "github": "https://github.com/f/git-rewrite-commits",
       "homepage": "https://blog.fka.dev/git-rewrite-commits/",
       "language": "TypeScript",
-      "stars": 1408,
+      "stars": 1409,
       "forks": 56,
       "installCommand": "npx git-rewrite-commits",
       "requirements": "Node.js, Git",
@@ -10671,7 +10671,7 @@
       "_store": "scyto",
       "_storeUrl": "",
       "developer": "scyto",
-      "stars": 28,
+      "stars": 29,
       "forks": 0
     },
     {
@@ -11830,8 +11830,8 @@
       "github": "https://github.com/f/poke-gate",
       "homepage": "https://poke.com",
       "language": "Swift / JavaScript",
-      "stars": 35,
-      "forks": 2,
+      "stars": 36,
+      "forks": 3,
       "brew": "brew install f/tap/poke-gate",
       "installCommand": "npx poke-gate",
       "downloadUrl": "https://github.com/f/poke-gate/releases/latest",
@@ -12137,8 +12137,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 154324,
-      "forks": 20274,
+      "stars": 154340,
+      "forks": 20277,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -12181,8 +12181,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 154324,
-      "forks": 20274,
+      "stars": 154340,
+      "forks": 20277,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
