@@ -10311,7 +10311,7 @@
       "_store": "Bora Biricik",
       "_storeUrl": "",
       "stars": 6,
-      "forks": 0,
+      "forks": 1,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/geodaddy.jpg"
     },
     {
@@ -12137,7 +12137,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 154340,
+      "stars": 154341,
       "forks": 20277,
       "requirements": "Any modern browser",
       "features": [
@@ -12181,7 +12181,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 154340,
+      "stars": 154341,
       "forks": 20277,
       "requirements": "Any modern browser",
       "features": [
