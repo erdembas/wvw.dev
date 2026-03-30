@@ -163,6 +163,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/a-flower-a-day",
       "homepage": "https://presque.cool/a-flower-a-day/",
@@ -195,6 +196,7 @@
         "games"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/adulthood-simulator",
       "homepage": "https://presque.cool/adulthood-simulator/",
@@ -546,7 +548,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2201,
+      "stars": 2218,
       "forks": 331,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -842,6 +844,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/caravan-of-sidonia",
       "homepage": "https://presque.cool/caravan-of-sidonia/",
@@ -1201,6 +1204,7 @@
         "education"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/cosmographe",
       "homepage": "https://presque.cool/cosmographe/",
@@ -1234,6 +1238,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/council-of-steves",
       "homepage": "https://presque.cool/council-of-steves/",
@@ -1315,7 +1320,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2201,
+      "stars": 2218,
       "forks": 331,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -1361,6 +1366,7 @@
         "productivity"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/days-since",
       "homepage": "https://presque.cool/since/",
@@ -1556,6 +1562,7 @@
         "utilities"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/dice-roller",
       "homepage": "https://presque.cool/dice/",
@@ -1911,6 +1918,7 @@
         "lifestyle"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/dot365",
       "homepage": "https://presque.cool/dot365/",
@@ -1944,6 +1952,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/dune-of-sidonia",
       "homepage": "https://presque.cool/dune-of-sidonia/",
@@ -10471,7 +10480,7 @@
       "github": "https://github.com/f/git-rewrite-commits",
       "homepage": "https://blog.fka.dev/git-rewrite-commits/",
       "language": "TypeScript",
-      "stars": 1408,
+      "stars": 1409,
       "forks": 56,
       "installCommand": "npx git-rewrite-commits",
       "requirements": "Node.js, Git",
@@ -10652,6 +10661,7 @@
         "games"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/grid4",
       "homepage": "https://presque.cool/grid4/",
@@ -10687,6 +10697,7 @@
         "lifestyle"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/growing-everyday",
       "homepage": "https://presque.cool/growing-everyday/",
@@ -10992,6 +11003,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/icon-z",
       "homepage": "https://presque.cool/kao-z/",
@@ -11026,6 +11038,7 @@
         "utilities"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/k60",
       "homepage": "https://presque.cool/keyb60/",
@@ -11216,13 +11229,13 @@
       "description": "Unofficial archive of 30,000+ Marvel Comics issues, 3,900+ series, and 4,300+ creators (1965-2025).",
       "longDescription": "Marvel Archive is an unofficial static archive cataloging 30,000+ Marvel Comics issues, 3,900+ series, and 4,300+ creators from 1965 to 2025. Browse by year, series, or creator. Full-text search powered by Pagefind. Data sourced from the defunct Marvel Developer API, preserved for research and educational purposes.",
       "icon": "https://presque.cool/marvel-archive/icons/icon-512.png",
-      "iconEmoji": "🦸",
       "category": [
         "web",
         "entertainment",
         "reference"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/marvel-archive",
       "homepage": "https://presque.cool/marvel-archive/",
@@ -11540,6 +11553,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/neon-gen",
       "homepage": "https://presque.cool/neon-gen/",
@@ -11571,6 +11585,7 @@
         "games"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/nexus",
       "homepage": "https://presque.cool/nexus/",
@@ -11680,6 +11695,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/orbital-drift",
       "homepage": "https://presque.cool/orbital-drift/",
@@ -12068,6 +12084,7 @@
         "reference"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/pokecodex",
       "homepage": "https://presque.cool/pokecodex/",
@@ -12300,8 +12317,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 154697,
-      "forks": 20309,
+      "stars": 154769,
+      "forks": 20317,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -12344,8 +12361,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 154697,
-      "forks": 20309,
+      "stars": 154769,
+      "forks": 20317,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -12422,6 +12439,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/radial-clock",
       "homepage": "https://presque.cool/radial-clock/",
@@ -12939,6 +12957,7 @@
         "entertainment"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/seedmoji",
       "homepage": "https://presque.cool/seedmoji/",
@@ -13101,6 +13120,7 @@
         "entertainment"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/spin-eat",
       "homepage": "https://presque.cool/spin-eat/",
@@ -13165,6 +13185,7 @@
         "graphics-design"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/starwarsavatar",
       "homepage": "https://starwarsavatar.com/",
@@ -13200,6 +13221,7 @@
         "utilities"
       ],
       "platform": "Web",
+      "requirements": "Any modern browser",
       "price": "Free",
       "github": "https://github.com/presquecool/starwarscountdown",
       "homepage": "https://presque.cool/starwarscountdown/",
@@ -13454,7 +13476,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2279,
+      "stars": 2284,
       "forks": 153,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
