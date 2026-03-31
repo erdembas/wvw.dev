@@ -7,28 +7,28 @@
   },
   "featured": [
     {
-      "id": "claude-board",
-      "headline": "JUST SHIPPED",
-      "title": "Kanban meets your AI coding workflow.",
-      "subtitle": "Claude Board brings a visual Kanban board and live terminal streaming to Claude Code. Manage AI-powered dev tasks across projects, on the web or desktop — the command center your AI setup deserves."
+      "id": "wallnetic",
+      "headline": "MUST TRY",
+      "title": "Your desktop, alive and in motion.",
+      "subtitle": "Wallnetic brings GPU-accelerated live video wallpapers to macOS with per-display settings, smart battery management, and a curated library. Windows had Wallpaper Engine — now Mac users finally have their match."
     },
     {
-      "id": "nodepad",
-      "headline": "RISING STAR",
-      "title": "Conversations that branch, not just scroll.",
-      "subtitle": "NodePad turns every AI message into a node on an infinite canvas, letting you explore parallel threads and map your thinking spatially. For power users who've long outgrown the chat window."
+      "id": "radioheavy-avalon",
+      "headline": "EDITOR'S PICK",
+      "title": "Design AI prompts like a visual artist.",
+      "subtitle": "Avalon is a privacy-first visual IDE for AI image workflows — build structured prompts in a tree editor, reverse-engineer uploaded images, browse community examples, and generate with fal.ai. Everything stays local, nothing leaves your machine."
     },
     {
       "id": "secretdrop",
-      "headline": "COMMUNITY FAVORITE",
-      "title": "Share a secret. Once. Then it's gone.",
-      "subtitle": "SecretDrop wraps your passwords and API keys in end-to-end encryption and sends them as self-destructing links — no account, no plain-text storage, no trace left behind."
+      "headline": "FAN FAVORITE",
+      "title": "One link. One view. Then it vanishes.",
+      "subtitle": "SecretDrop encrypts your passwords, API keys, and sensitive notes into self-destructing links — seen once, then gone forever. No account needed, no plain-text storage, no trace left behind."
     },
     {
-      "id": "deeper",
-      "headline": "HIDDEN GEM",
-      "title": "Your messaging life, visualized beautifully.",
-      "subtitle": "Deeper hooks into your local Beeper app to surface ghosting patterns, conversation timelines, and sent-vs-received breakdowns across iMessage, WhatsApp, Signal, and more — entirely on-device."
+      "id": "claude-board",
+      "headline": "TRENDING",
+      "title": "Command your AI coding sessions visually.",
+      "subtitle": "Claude Board is a Kanban-style dashboard built for Claude Code, with real-time terminal streaming and cross-project task management. Available as a web app and native desktop app on all major platforms."
     }
   ],
   "categories": [
@@ -584,8 +584,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2255,
-      "forks": 336,
+      "stars": 2259,
+      "forks": 337,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1356,8 +1356,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2255,
-      "forks": 336,
+      "stars": 2259,
+      "forks": 337,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -1472,7 +1472,7 @@
       "github": "https://github.com/f/deeper",
       "homepage": null,
       "language": "Swift",
-      "stars": 61,
+      "stars": 62,
       "forks": 6,
       "brew": "brew install f/tap/deeper",
       "downloadUrl": "https://github.com/f/deeper/releases/latest",
@@ -11799,6 +11799,48 @@
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/outlook365-cli.jpg"
     },
     {
+      "id": "paus",
+      "name": "paus",
+      "subtitle": "Think before you spend by seeing prices in work hours.",
+      "description": "paus helps people slow down impulse purchases by turning item prices into work hours and making spending decisions feel more intentional.",
+      "longDescription": "paus helps people slow down impulse purchases by turning item prices into work hours and making spending decisions feel more intentional. The app tracks spending and saving choices, lets users pause uncertain purchases with reminders, supports multiple currencies and languages, and adapts to personal financial goals.",
+      "icon": "https://raw.githubusercontent.com/mustafademiray/pausapp/main/paus_logo.png",
+      "iconEmoji": "⏸️",
+      "category": [
+        "ios",
+        "lifestyle",
+        "finance"
+      ],
+      "platform": "iOS",
+      "price": "Freemium",
+      "github": "https://github.com/mustafademiray/pausapp",
+      "homepage": "https://apps.apple.com/tr/app/paus-stop-impulse-buying/id6757305070",
+      "language": "React Native",
+      "requirements": "iOS 14+",
+      "features": [
+        "Converting item prices into work hours",
+        "Tracking spending and saving decisions",
+        "Providing reminders for uncertain purchases",
+        "Supporting multiple currencies and languages",
+        "Personalizing the experience based on financial goals"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/mustafademiray/pausapp/main/appstore_img_en_1.png",
+        "https://raw.githubusercontent.com/mustafademiray/pausapp/main/appstore_img_en_2.png",
+        "https://raw.githubusercontent.com/mustafademiray/pausapp/main/appstore_img_en_3.png",
+        "https://raw.githubusercontent.com/mustafademiray/pausapp/main/appstore_img_en_4.png",
+        "https://raw.githubusercontent.com/mustafademiray/pausapp/main/appstore_img_en_5.png"
+      ],
+      "_source": "mustafademiray/pausapp",
+      "_owner": "mustafademiray",
+      "_developer": "Mustafa Demiray",
+      "_store": "Mustafa Demiray",
+      "_storeUrl": "https://musti.cc",
+      "developer": "Mustafa Demiray",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "id": "personal-website",
       "name": "Personal Website",
       "subtitle": "osmankoc.dev — Next.js & TypeScript",
@@ -12353,8 +12395,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 155078,
-      "forks": 20363,
+      "stars": 155117,
+      "forks": 20370,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -12397,8 +12439,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 155078,
-      "forks": 20363,
+      "stars": 155117,
+      "forks": 20370,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -13512,7 +13554,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2294,
+      "stars": 2295,
       "forks": 154,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
