@@ -274,8 +274,8 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 403,
-      "forks": 43,
+      "stars": 404,
+      "forks": 44,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
       "features": [
@@ -584,8 +584,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2518,
-      "forks": 388,
+      "stars": 2528,
+      "forks": 391,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1356,8 +1356,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 2518,
-      "forks": 388,
+      "stars": 2528,
+      "forks": 391,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -1802,7 +1802,7 @@
       "github": "https://github.com/DodoApps/dodopulse",
       "homepage": null,
       "language": "Swift",
-      "stars": 128,
+      "stars": 129,
       "forks": 13,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -1924,7 +1924,7 @@
       "github": "https://github.com/DodoApps/dodotidy",
       "homepage": null,
       "language": "Swift",
-      "stars": 172,
+      "stars": 173,
       "forks": 7,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -11213,7 +11213,7 @@
       "_store": "scyto",
       "_storeUrl": "",
       "developer": "scyto",
-      "stars": 31,
+      "stars": 32,
       "forks": 0
     },
     {
@@ -11590,7 +11590,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 255,
+      "stars": 256,
       "forks": 6,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -12751,8 +12751,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 157387,
-      "forks": 20616,
+      "stars": 157425,
+      "forks": 20619,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -12795,8 +12795,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 157387,
-      "forks": 20616,
+      "stars": 157425,
+      "forks": 20619,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
