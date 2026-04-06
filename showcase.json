@@ -1,22 +1,21 @@
 {
-  "generated_at": "2026-03-30T09:40:54Z",
+  "generated_at": "2026-04-06T09:42:52Z",
   "highlights": [
     {
-      "id": "poke-gate",
-      "name": "Poke Gate",
-      "subtitle": "Remote OS Access for Poke AI",
-      "icon": "https://raw.githubusercontent.com/f/poke-gate/main/assets/logo.png",
+      "id": "deeper",
+      "name": "Deeper",
+      "subtitle": "Messaging Analytics for Beeper",
+      "icon": "https://raw.githubusercontent.com/f/deeper/main/icon.svg",
       "iconStyle": {
-        "scale": 1.3,
-        "objectFit": "cover",
-        "borderRadius": "22%"
+        "scale": 1,
+        "objectFit": "contain",
+        "bgColor": "#1c1c1e"
       },
       "iconEmoji": null,
-      "screenshot": null,
-      "category": "cli",
-      "platform": "macOS / Node.js",
-      "stars": 47,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/poke-gate.jpg"
+      "screenshot": "https://raw.githubusercontent.com/f/deeper/main/docs/screenshot.png",
+      "category": "macos",
+      "platform": "macOS",
+      "stars": 62
     },
     {
       "id": "ha-bluetooth-audio-manager",
@@ -28,70 +27,74 @@
       "screenshot": "https://github.com/user-attachments/assets/a1dd24b9-9f99-4049-80fc-918e3a5f8909",
       "category": "music",
       "platform": "Docker",
-      "stars": 30,
+      "stars": 32,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ha-bluetooth-audio-manager.jpg"
     }
   ],
   "picks": [
     {
-      "id": "dodocount",
-      "name": "DodoCount",
-      "subtitle": "Google Analytics in your menu bar",
-      "icon": "https://raw.githubusercontent.com/DodoApps/dodocount/main/dodocount.png",
+      "id": "wallnetic",
+      "name": "Wallnetic",
+      "subtitle": "Live Video Wallpapers for Mac",
+      "icon": "https://raw.githubusercontent.com/fatihkan/wallnetic/main/docs/assets/icon.png",
       "iconStyle": {
         "scale": 1.3,
         "objectFit": "cover",
         "borderRadius": "22%"
       },
       "iconEmoji": null,
-      "screenshot": null,
-      "category": "macos",
-      "platform": "macOS",
-      "stars": 15,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dodocount.jpg"
-    },
-    {
-      "id": "istanbul",
-      "name": "Istanbul",
-      "subtitle": "Ambient Istanbul Soundscapes",
-      "icon": "https://raw.githubusercontent.com/f/istanbul/main/Istanbul/Assets.xcassets/AppIcon.appiconset/icon_256x256.png",
-      "iconStyle": {
-        "scale": 1.3,
-        "objectFit": "cover",
-        "borderRadius": "22%"
-      },
-      "iconEmoji": null,
-      "screenshot": null,
+      "screenshot": "https://raw.githubusercontent.com/fatihkan/wallnetic/main/docs/assets/screenshot-main.png",
       "category": "macos",
       "platform": "macOS",
       "stars": 16,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/istanbul.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/wallnetic.jpg"
     },
     {
-      "id": "moodjot",
-      "name": "MoodJot",
-      "subtitle": "Mood Tracker Journal",
-      "icon": "https://buhane.ams3.cdn.digitaloceanspaces.com/vynix/icons/moodjot-512.png",
+      "id": "deeper",
+      "name": "Deeper",
+      "subtitle": "Messaging Analytics for Beeper",
+      "icon": "https://raw.githubusercontent.com/f/deeper/main/icon.svg",
+      "iconStyle": {
+        "scale": 1,
+        "objectFit": "contain",
+        "bgColor": "#1c1c1e"
+      },
+      "iconEmoji": null,
+      "screenshot": "https://raw.githubusercontent.com/f/deeper/main/docs/screenshot.png",
+      "category": "macos",
+      "platform": "macOS",
+      "stars": 62
+    },
+    {
+      "id": "glow-spin",
+      "name": "Glow Spin",
+      "subtitle": "Rhythm Reflex Game",
+      "icon": "https://buhane.ams3.cdn.digitaloceanspaces.com/vynix/icons/glowspin-512.png",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
       "category": "ios",
       "platform": "iOS & Android",
-      "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/moodjot.jpg"
+      "stars": 1,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/glow-spin.jpg"
     },
     {
-      "id": "breathe-wisely",
-      "name": "Breathe Wisely",
-      "subtitle": "Guided breathing and meditation exercises",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/1c/dd/fd1cddd8-acb4-1db3-8031-6d3bfafa7aee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "iconStyle": null,
-      "iconEmoji": "🌬️",
+      "id": "vakit",
+      "name": "Vakit",
+      "subtitle": "Quran, Dhikr & Worship Tracker",
+      "icon": "https://vakit.hakancelik.dev/assets/app-icon-32.png",
+      "iconStyle": {
+        "scale": 1.0,
+        "objectFit": "cover",
+        "borderRadius": "22%",
+        "bgColor": "#2A9D8F"
+      },
+      "iconEmoji": "🕌",
       "screenshot": null,
       "category": "ios",
       "platform": "iOS",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/breathe-wisely.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/vakit.jpg"
     },
     {
       "id": "swipe-slip",
@@ -103,7 +106,7 @@
       "screenshot": null,
       "category": "android",
       "platform": "iOS & Android",
-      "stars": 0,
+      "stars": 1,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/swipe-slip.jpg"
     },
     {
@@ -116,8 +119,74 @@
       "screenshot": null,
       "category": "android",
       "platform": "iOS & Android",
-      "stars": 0,
+      "stars": 1,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/moodjot.jpg"
+    },
+    {
+      "id": "findutils-flashcard-maker",
+      "name": "Flashcard Maker",
+      "subtitle": "Create free digital flashcards for studying, memorization, and exam prep.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/flashcard-maker.svg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "web",
+      "platform": "Web",
+      "stars": 0
+    },
+    {
+      "id": "findutils-grade-calculator",
+      "name": "Grade Calculator",
+      "subtitle": "Calculate your weighted grades and final exam scores online for free.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/grade-calculator.svg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "web",
+      "platform": "Web",
+      "stars": 0
+    },
+    {
+      "id": "superportless",
+      "name": "superportless",
+      "subtitle": "Keep the exact same localhost origin while switching worktrees per tab.",
+      "icon": "https://software-lab.shibukazu.com/products/superportless/icon.png",
+      "iconStyle": {
+        "objectFit": "contain",
+        "bgColor": "#E5E7EB",
+        "padding": "16%"
+      },
+      "iconEmoji": "🧭",
+      "screenshot": "https://software-lab.shibukazu.com/products/superportless/wvw-preview.svg",
+      "category": "cli",
+      "platform": "CLI",
+      "stars": 3,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/superportless.jpg"
+    },
+    {
+      "id": "outlook365-cli",
+      "name": "Outlook CLI",
+      "subtitle": "Outlook 365 from your terminal",
+      "icon": null,
+      "iconStyle": null,
+      "iconEmoji": "📬",
+      "screenshot": "https://raw.githubusercontent.com/yusufaltunbicak/outlook-cli/main/docs/screenshot.jpeg",
+      "category": "cli",
+      "platform": "Python",
+      "stars": 17,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/outlook365-cli.jpg"
+    },
+    {
+      "id": "findutils-visual-json",
+      "name": "Visual JSON Editor",
+      "subtitle": "Edit JSON visually with an interactive tree view.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/visual-json.svg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "developer-tools",
+      "platform": "Web",
+      "stars": 0
     },
     {
       "id": "findutils-yaml-validator",
@@ -127,145 +196,85 @@
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
-      "category": "web",
+      "category": "developer-tools",
       "platform": "Web",
       "stars": 0
     },
     {
-      "id": "growing-everyday",
-      "name": "Growing Everyday",
-      "subtitle": "A digital garden growing in real time",
-      "icon": "https://presque.cool/growing-everyday/icons/icon-512.png",
-      "iconStyle": null,
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "web",
-      "platform": "Web",
-      "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/growing-everyday.jpg"
-    },
-    {
-      "id": "poke-gate",
-      "name": "Poke Gate",
-      "subtitle": "Remote OS Access for Poke AI",
-      "icon": "https://raw.githubusercontent.com/f/poke-gate/main/assets/logo.png",
+      "id": "philnav",
+      "name": "PhilNav",
+      "subtitle": "Infrared head mouse for hands-free computer control",
+      "icon": "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
       "iconStyle": {
-        "scale": 1.3,
         "objectFit": "cover",
-        "borderRadius": "22%"
+        "borderRadius": "16%"
       },
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "cli",
-      "platform": "macOS / Node.js",
-      "stars": 47,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/poke-gate.jpg"
+      "iconEmoji": "🖱️",
+      "screenshot": "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
+      "category": "productivity",
+      "platform": "Raspberry Pi + Desktop",
+      "stars": 5,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/philnav.jpg"
     },
     {
-      "id": "check-ai",
-      "name": "check-ai",
-      "subtitle": "AI-Readiness Audit for Repos",
-      "icon": "https://raw.githubusercontent.com/f/check-ai/main/logo.svg",
-      "iconStyle": {
-        "scale": 1.3,
-        "objectFit": "contain",
-        "bgColor": "#000000"
-      },
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "cli",
-      "platform": "Node.js",
-      "stars": 56
-    },
-    {
-      "id": "htwind",
-      "name": "HTWind",
-      "subtitle": "HTML widgets and PowerShell tools for the Windows desktop.",
-      "icon": "https://raw.githubusercontent.com/sametcn99/HTWind/refs/heads/main/assets/android-chrome-512x512.png",
-      "iconStyle": null,
-      "iconEmoji": "🪟",
-      "screenshot": "https://raw.githubusercontent.com/sametcn99/HTWind/refs/heads/main/assets/app_screenshots/page_home.png",
-      "category": "developer-tools",
-      "platform": "Windows",
-      "stars": 6,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/htwind.jpg"
-    },
-    {
-      "id": "poke-tui",
-      "name": "Poke TUI",
-      "subtitle": "Terminal Chat for Poke AI",
+      "id": "radioheavy-wiro-cli",
+      "name": "Wiro CLI",
+      "subtitle": "Terminal client for discovering models, running tasks, and watching progress on Wiro AI",
       "icon": null,
-      "iconStyle": {},
-      "iconEmoji": "🌴",
-      "screenshot": null,
-      "category": "developer-tools",
-      "platform": "Node.js",
-      "stars": 8,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/poke-tui.jpg"
-    },
-    {
-      "id": "radioheavy-captioneer",
-      "name": "Captioneer",
-      "subtitle": "On-device live captions, translation, and OBS-ready overlays for macOS",
-      "icon": "https://raw.githubusercontent.com/radioheavy/captioneer/master/CaptioneerStandalone/Captioneer/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
-      "iconStyle": {
-        "scale": 1.3,
-        "objectFit": "cover",
-        "borderRadius": "22%"
-      },
-      "iconEmoji": "💬",
+      "iconStyle": null,
+      "iconEmoji": "⌘",
       "screenshot": null,
       "category": "productivity",
-      "platform": "macOS",
+      "platform": "CLI",
       "stars": 1,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-captioneer.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-wiro-cli.jpg"
     },
     {
-      "id": "shelf",
-      "name": "Shelf",
-      "subtitle": "Multiple Floating Docks for macOS",
-      "icon": "https://raw.githubusercontent.com/f/shelf/master/Shelf/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
+      "id": "en-yakin-hastane-bot",
+      "name": "En Yakın Hastaneyi Bul",
+      "subtitle": "Nearest Hospital Finder — Telegram Bot",
+      "icon": "https://osmankoc.dev/images/projects/en-yakin-hastaneyi-bul-logo.jpg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "utilities",
+      "platform": "Telegram",
+      "stars": 0,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/en-yakin-hastane-bot.jpg"
+    },
+    {
+      "id": "findutils-api-docs-generator",
+      "name": "API Documentation Generator",
+      "subtitle": "Generate professional API documentation in Markdown or OpenAPI format.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/api-docs-generator.svg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "utilities",
+      "platform": "Web",
+      "stars": 0
+    },
+    {
+      "id": "ehliyet",
+      "name": "Ehliyet Sınav Soruları",
+      "subtitle": "Sürücü Belgesi Sınavı Hazırlık",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/2a/f6/032af692-9463-dc94-a4df-386172446451/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconStyle": {
-        "scale": 1.3,
         "objectFit": "cover",
         "borderRadius": "22%"
       },
       "iconEmoji": null,
       "screenshot": null,
-      "category": "productivity",
-      "platform": "macOS",
-      "stars": 29,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/shelf.jpg"
+      "category": "education",
+      "platform": "iOS & Android",
+      "stars": 0,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ehliyet.jpg"
     },
     {
-      "id": "findutils-internet-speed-test",
-      "name": "Internet Speed Test",
-      "subtitle": "Test your internet download and upload speeds.",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/internet-speed-test.svg",
-      "iconStyle": null,
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "utilities",
-      "platform": "Web",
-      "stars": 0
-    },
-    {
-      "id": "findutils-json-formatter",
-      "name": "JSON Formatter & Validator",
-      "subtitle": "Paste your raw JSON code below to format, validate, and beautify it.",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/json-formatter.svg",
-      "iconStyle": null,
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "utilities",
-      "platform": "Web",
-      "stars": 0
-    },
-    {
-      "id": "findutils-one-rep-max-calculator",
-      "name": "One Rep Max Calculator",
-      "subtitle": "Calculate your estimated one-rep max (1RM) for any lift using multiple proven...",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/one-rep-max-calculator.svg",
+      "id": "findutils-body-fat-calculator",
+      "name": "Body Fat Calculator",
+      "subtitle": "Calculate your body fat percentage using the U.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/body-fat-calculator.svg",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
@@ -274,68 +283,58 @@
       "stars": 0
     },
     {
-      "id": "findutils-travel-budget-calculator",
-      "name": "Travel Budget Calculator",
-      "subtitle": "Plan your perfect trip with our free travel budget calculator.",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/travel-budget-calculator.svg",
-      "iconStyle": null,
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "education",
-      "platform": "Web",
-      "stars": 0
-    },
-    {
-      "id": "swipe-slip",
-      "name": "Swipe Slip",
-      "subtitle": "Tunnel Runner Game",
-      "icon": "https://buhane.ams3.cdn.digitaloceanspaces.com/vynix/icons/swipeslip-512.png",
+      "id": "glow-spin",
+      "name": "Glow Spin",
+      "subtitle": "Rhythm Reflex Game",
+      "icon": "https://buhane.ams3.cdn.digitaloceanspaces.com/vynix/icons/glowspin-512.png",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
       "category": "entertainment",
       "platform": "iOS & Android",
-      "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/swipe-slip.jpg"
+      "stars": 1,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/glow-spin.jpg"
     },
     {
-      "id": "dune-of-sidonia",
-      "name": "Dune of Sidonia",
-      "subtitle": "Procedural desert landscapes inspired by Moebius",
-      "icon": "https://presque.cool/dune-of-sidonia/icons/icon-512.png",
+      "id": "pokecodex",
+      "name": "PokeCodex",
+      "subtitle": "Interactive Pokedex powered by PokeAPI",
+      "icon": "https://presque.cool/pokecodex/icons/icon-512.png",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
       "category": "entertainment",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dune-of-sidonia.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/pokecodex.jpg"
     },
     {
-      "id": "munch",
-      "name": "Munch",
-      "subtitle": "Can you beat the computer at the game of Munch?",
-      "icon": null,
-      "iconStyle": null,
-      "iconEmoji": "🍎",
-      "screenshot": "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/munch.png",
+      "id": "pixel-guess-mobile",
+      "name": "Pixel Guess Mobile",
+      "subtitle": "Pixel guessing game for iOS",
+      "icon": "https://raw.githubusercontent.com/Jubstaaa/pixel-guess/main/apps/mobile/assets/icon.png",
+      "iconStyle": {
+        "borderRadius": "22%"
+      },
+      "iconEmoji": null,
+      "screenshot": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/5d/a1/ef5da131-2420-2e1a-a2fe-a8a9db479e5f/ios_1_1.png/600x1300bb.webp",
       "category": "games",
-      "platform": "Web",
+      "platform": "iOS",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/munch.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/pixel-guess-mobile.jpg"
     },
     {
-      "id": "adulthood-simulator",
-      "name": "Adulthood Simulator",
-      "subtitle": "The infinite to-do list of adult life",
-      "icon": "https://presque.cool/adulthood-simulator/icons/icon-512.png",
+      "id": "dice-roller",
+      "name": "Dice Roller",
+      "subtitle": "Provably fair dice for tabletop RPGs",
+      "icon": "https://presque.cool/dice/icons/icon-512.png",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
       "category": "games",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/adulthood-simulator.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dice-roller.jpg"
     },
     {
       "id": "ha-bluetooth-audio-manager",
@@ -347,7 +346,7 @@
       "screenshot": "https://github.com/user-attachments/assets/a1dd24b9-9f99-4049-80fc-918e3a5f8909",
       "category": "music",
       "platform": "Docker",
-      "stars": 30,
+      "stars": 32,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ha-bluetooth-audio-manager.jpg"
     },
     {
@@ -390,44 +389,39 @@
       "screenshot": null,
       "category": "photo-video",
       "platform": "iOS & Android",
-      "stars": 0,
+      "stars": 1,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/vynix.jpg"
     },
     {
-      "id": "radioheavy-avalon",
-      "name": "Avalon",
-      "subtitle": "Visual prompt IDE for AI editing, reverse engineering, and image workflows",
-      "icon": "https://raw.githubusercontent.com/radioheavy/avalon/main/public/apple-touch-icon.png",
-      "iconStyle": {
-        "scale": 1.2,
-        "objectFit": "cover",
-        "borderRadius": "22%"
-      },
-      "iconEmoji": "✨",
-      "screenshot": "https://raw.githubusercontent.com/radioheavy/avalon/main/public/a/new-2-dashboard.png",
-      "category": "graphics-design",
-      "platform": "Web",
-      "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/radioheavy-avalon.jpg"
-    },
-    {
-      "id": "council-of-steves",
-      "name": "Council of Steves",
-      "subtitle": "Every gull is Steve",
-      "icon": "https://presque.cool/council-of-steves/icons/icon-512.png",
+      "id": "dune-of-sidonia",
+      "name": "Dune of Sidonia",
+      "subtitle": "Procedural desert landscapes inspired by Moebius",
+      "icon": "https://presque.cool/dune-of-sidonia/icons/icon-512.png",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
       "category": "graphics-design",
       "platform": "Web",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/council-of-steves.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dune-of-sidonia.jpg"
     },
     {
-      "id": "findutils-down-payment-calculator",
-      "name": "Down Payment Calculator",
-      "subtitle": "Calculate home down payment amounts, closing costs, and PMI costs.",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/down-payment-calculator.svg",
+      "id": "findutils-contrast-checker",
+      "name": "Color Contrast Checker",
+      "subtitle": "Check color contrast ratios for WCAG AA and AAA compliance.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/contrast-checker.svg",
+      "iconStyle": null,
+      "iconEmoji": null,
+      "screenshot": null,
+      "category": "graphics-design",
+      "platform": "Web",
+      "stars": 0
+    },
+    {
+      "id": "findutils-business-loan-calculator",
+      "name": "Business Loan Calculator",
+      "subtitle": "Calculate business loan payments, total interest, and effective APR.",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/business-loan-calculator.svg",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
@@ -436,10 +430,10 @@
       "stars": 0
     },
     {
-      "id": "findutils-loan-calculator",
-      "name": "Loan Calculator",
-      "subtitle": "Calculate monthly loan payments, total interest cost, and view detailed amort...",
-      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/loan-calculator.svg",
+      "id": "findutils-home-affordability-calculator",
+      "name": "Home Affordability Calculator",
+      "subtitle": "Calculate how much house you can afford based on income, debts, and down paym...",
+      "icon": "https://raw.githubusercontent.com/olgunozoktas/findutils-tools/main/images/wvw-icons/home-affordability-calculator.svg",
       "iconStyle": null,
       "iconEmoji": null,
       "screenshot": null,
@@ -477,25 +471,23 @@
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/kadin-sagligi.jpg"
     },
     {
-      "id": "seasons-solstice-tracker",
-      "name": "Seasons: Solstice Tracker",
-      "subtitle": "Moon, Progress & Widgets",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/a0/bb/03a0bb0a-e3e9-b128-17cf-cc4372f0bdd5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "iconStyle": {
-        "borderRadius": "22%"
-      },
-      "iconEmoji": "🌗",
+      "id": "prayer-times",
+      "name": "Prayer Times & Qibla",
+      "subtitle": "Namaz Vakitleri, Kıble & Kuran",
+      "icon": null,
+      "iconStyle": {},
+      "iconEmoji": "🕌",
       "screenshot": null,
       "category": "lifestyle",
-      "platform": "iOS",
+      "platform": "iOS & Android",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/seasons-solstice-tracker.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/prayer-times.jpg"
     },
     {
-      "id": "derdini-dok",
-      "name": "Derdini Dök",
-      "subtitle": "Anonim Paylaşım & Dertleşme",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/9a/7c/299a7ca3-69bc-d5fc-3047-68bec3776a95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "id": "cizmeli-kedi",
+      "name": "Çizmeli Kedi Veteriner",
+      "subtitle": "Çekmeköy İstanbul Veteriner Kliniği",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/0a/a3/770aa349-c955-267e-ff27-ac468a5f446f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconStyle": {
         "objectFit": "cover",
         "borderRadius": "22%"
@@ -503,9 +495,9 @@
       "iconEmoji": null,
       "screenshot": null,
       "category": "lifestyle",
-      "platform": "iOS & Android",
+      "platform": "iOS",
       "stars": 0,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/derdini-dok.jpg"
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/cizmeli-kedi.jpg"
     },
     {
       "id": "worldmonitor",
@@ -517,8 +509,21 @@
       "screenshot": null,
       "category": "news",
       "platform": "Web / macOS / Windows / Linux",
-      "stars": 0,
+      "stars": 1,
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/worldmonitor.jpg"
+    },
+    {
+      "id": "ai2sql",
+      "name": "AI2SQL",
+      "subtitle": "Generate SQL queries with AI",
+      "icon": null,
+      "iconStyle": null,
+      "iconEmoji": "🗄️",
+      "screenshot": null,
+      "category": "business",
+      "platform": "Web",
+      "stars": 0,
+      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/ai2sql.jpg"
     },
     {
       "id": "reviseflow",
@@ -534,29 +539,12 @@
       "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/reviseflow.jpg"
     },
     {
-      "id": "dodocount",
-      "name": "DodoCount",
-      "subtitle": "Google Analytics in your menu bar",
-      "icon": "https://raw.githubusercontent.com/DodoApps/dodocount/main/dodocount.png",
-      "iconStyle": {
-        "scale": 1.3,
-        "objectFit": "cover",
-        "borderRadius": "22%"
-      },
-      "iconEmoji": null,
-      "screenshot": null,
-      "category": "business",
-      "platform": "macOS",
-      "stars": 15,
-      "showcase_image": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/showcase/dodocount.jpg"
-    },
-    {
       "id": "marvel-archive",
       "name": "Marvel Archive",
       "subtitle": "The Marvel Comics catalog, year by year",
       "icon": "https://presque.cool/marvel-archive/icons/icon-512.png",
       "iconStyle": null,
-      "iconEmoji": "🦸",
+      "iconEmoji": null,
       "screenshot": null,
       "category": "reference",
       "platform": "Web",
